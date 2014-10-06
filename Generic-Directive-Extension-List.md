@@ -32,9 +32,9 @@ Below is a list of extensions and it's purpose.
  * () : image url
  * {} : width="width of image", height="height of image"
 
-* **TOC** : Table of content
+* **TOC** : Table of contents
  * Purpose: Embed a table of content, based on header names.
- * [] : 
+ * [] : Title of TOC, could default to "Table of contents"
  * () : 
  * {} : 
 
@@ -51,8 +51,8 @@ Below is a list of extensions and it's purpose.
  * {} : type="numeric/letter/figname"
  * Block Directive Content : Content of figure 
 
-* **fig.`<figname>`** : link to figure <figurename> 
- * Purpose: link to figure <figurename> created from 'fig'
+* **ref** : link to figure 
+ * Purpose: link to figure <figname> created from 'fig'
  * [] : 
- * () : 
+ * () : figname
  * {} : type="override numeric/letter/figname"
