@@ -46,12 +46,12 @@ Below is a list of extensions and it's purpose.
 
 * **fig** : figure
  * Purpose: create a figure instance
- * [] : <figname> name of figure
+ * [] : `<figname>` name of figure
  * () : 
  * {} : type="numeric/letter/figname"
  * Block Directive Content : Content of figure 
 
-* **fig.<figname>** : link to figure <figurename> 
+* **fig.`<figname>`** : link to figure <figurename> 
  * Purpose: link to figure <figurename> created from 'fig'
  * [] : 
  * () : 
