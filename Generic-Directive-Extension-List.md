@@ -43,3 +43,16 @@ Below is a list of extensions and it's purpose.
  * [] : Spoiler Text 
  * () : 
  * {} : 
+
+* **fig** : figure
+ * Purpose: create a figure instance
+ * [] : <figname> name of figure
+ * () : 
+ * {} : type="numeric/letter/figname"
+ * Block Directive Content : Content of figure 
+
+* **fig.<figname>** : link to figure <figurename> 
+ * Purpose: link to figure <figurename> created from 'fig'
+ * [] : 
+ * () : 
+ * {} : type="override numeric/letter/figname"
