@@ -12,28 +12,33 @@ Below is a list of extensions and it's purpose.
  * () : argumentField 
  * {} : keyValueField 
 
+*  : 
+ * Purpose: 
+ * [] :  
+ * () :  
+ * {} :  
 -----------
 
 * default : default extension
  * Purpose: used if no extension name is specified. Reads url, and chooses the appropriate extensions. E.g. .png will be embedded as an image
- * []  contentField: 
- * () argumentField: Reads the url name to determine filetype
- * {} keyValueField: 
+ * [] : 
+ * () : Reads the url name to determine filetype
+ * {} : 
 
 * image : embed image
  * Purpose: embeds image in page
- * []  contentField: image alt text
- * () argumentField: image url
- * {} keyValueField: width="width of image", height="height of image"
+ * [] : image alt text
+ * () : image url
+ * {} : width="width of image", height="height of image"
 
 * TOC : Table of content
  * Purpose: Embed a table of content, based on header names.
- * []  contentField: 
- * () argumentField: 
- * {} keyValueField: 
+ * [] : 
+ * () : 
+ * {} : 
 
 * spoiler : Hides spoilers
  * Purpose: Informs display to hide content, unless user wants to be shown the spoilers
- * []  contentField: Spoiler Text 
- * () argumentField: 
- * {} keyValueField: 
+ * [] : Spoiler Text 
+ * () : 
+ * {} : 
