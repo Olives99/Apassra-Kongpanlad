@@ -21,7 +21,7 @@ Below is a list of extensions and it's purpose.
 -----------
 
 * **default** : default extension
- * Purpose: used if no extension name is specified. Reads url, and chooses the appropriate extensions. E.g. .png will be embedded using the `image` extention
+ * Purpose: used if no extension name is specified. Reads url, and chooses the appropriate extensions. E.g. .png will be embedded using the `image` extension
  * [] : 
  * () : Reads the url name to determine filetype
  * {} : 
