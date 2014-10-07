@@ -4,6 +4,8 @@ This is an unofficial community draft specification to help assist with maintain
 
 The aim of this page is to assist in maintaining consistency in community discussions, e.g. ensure no two suggestion is going to conflict with another part of the specification.
 
+Discuss at http://talk.commonmark.org/
+
 -----
 
 # Introduction
