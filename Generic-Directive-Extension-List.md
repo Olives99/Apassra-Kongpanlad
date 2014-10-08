@@ -46,6 +46,8 @@ Below is a list of extensions and it's purpose.
  * () : 
  * {} : 
 
+> This usage is completely different than every other tag which wraps text (`\``, `*`, `**`, etc) which would make it both unconventional and very difficult for users.
+
 * **fig** : figure
  * Purpose: create a figure instance
  * [] : `<figname>` name of figure
