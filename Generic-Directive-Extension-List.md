@@ -38,6 +38,8 @@ Below is a list of extensions and it's purpose.
  * () : 
  * {} : 
 
+> This seems forced into the provided syntax. Why is this not a block element? Why is the title provided inside the syntax as opposed to just being text prior to the "TOC" tag?
+
 * **spoiler** : Hides spoilers
  * Purpose: Informs display to hide content, unless user wants to be shown the spoilers
  * [] : Spoiler Text 
@@ -51,8 +53,12 @@ Below is a list of extensions and it's purpose.
  * {} : type="numeric/letter/figname"
  * Block Directive Content : Content of figure 
 
+> How is this semantically different to a creator than an image and some text? How would it co-exist with existing syntax for images, and code blocks, both of which are mentioned in the spec as uses for the `<figure>` tag. What would this resolve to in non-HTML implementations? (ie - What "is" a figure?)
+
 * **ref** : link to figure 
  * Purpose: link to figure <figname> created from 'fig'
  * [] : 
  * () : figname
  * {} : type="override numeric/letter/figname"
+
+> What is this providing beyond duplicating the link syntax?
