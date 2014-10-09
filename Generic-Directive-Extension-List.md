@@ -5,7 +5,7 @@ It might look like `!extensionName[](){}` for inline
 and for block
 
    !!!extensionName[](){}
-   ...content...
+   ...BlockContent...
    !!!
 
 -------
