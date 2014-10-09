@@ -78,8 +78,16 @@ Below is a list of extensions and it's purpose.
 
 > Yea I agree we should probably think about using the `[]:` somehow (if I'm correct that it can act as a figure) -mofosyne
 
-* **asciiDiagram** : renders ASCII art / diagram
- * Purpose: Lets parser knows that the content is to be treated as ASCII art / diagram
+* **asciiArt** : renders ASCII art
+ * Purpose: Lets parser knows that the content is to be treated as ASCII art. Output is more flexible.
+ * [] : 
+ * () : 
+ * {} : renderAs='vector/bitmap/ASCII'
+ * Block: ASCII diagram
+ * note: rendering could be via taking the average density of a character split in a grid of 9. 
+
+* **asciiDiagram** : renders ASCII diagram
+ * Purpose: Lets parser knows that the content is to be treated as ASCII diagram. (Which unlike ASCII art, has well defined lines, and boxes, and should be treated like a technical drawing. E.g. no smoothing or blurring).
  * [] : 
  * () : 
  * {} : renderAs='vector/bitmap/ASCII'
