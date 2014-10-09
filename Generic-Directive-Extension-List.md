@@ -85,7 +85,7 @@ Below is a list of extensions and it's purpose.
  * {} : renderAs='vector/bitmap/ASCII', width="width of image", height="height of image"
  * Block: ASCII diagram
  * note: rendering could be via taking the average density of each character split as a grid of 3*3 pixel per character.
- * note: http://mattmik.com/articles/ascii/ascii.html
+ * note: Do this but in reverse http://mattmik.com/articles/ascii/ascii.html
 
 * **asciiDiagram** : renders technical ASCII diagram
  * Purpose: Lets parser knows that the content is to be treated as ASCII diagram. (Which unlike ASCII art, has well defined lines, and boxes, text, and should be treated like a technical drawing. E.g. no smoothing or blurring).
