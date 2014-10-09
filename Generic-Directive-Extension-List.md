@@ -82,7 +82,7 @@ Below is a list of extensions and it's purpose.
  * Purpose: Lets parser knows that the content is to be treated as ASCII art. Output is more flexible.
  * [] : 
  * () : 
- * {} : renderAs='vector/bitmap/ASCII'
+ * {} : renderAs='vector/bitmap/ASCII', width="width of image", height="height of image"
  * Block: ASCII diagram
  * note: rendering could be via taking the average density of each character split as a grid of 3*3 pixel per character.
 
@@ -90,6 +90,6 @@ Below is a list of extensions and it's purpose.
  * Purpose: Lets parser knows that the content is to be treated as ASCII diagram. (Which unlike ASCII art, has well defined lines, and boxes, text, and should be treated like a technical drawing. E.g. no smoothing or blurring).
  * [] : 
  * () : 
- * {} : renderAs='vector/bitmap/ASCII'
+ * {} : renderAs='vector/bitmap/ASCII', width="width of image", height="height of image"
  * Block: ASCII diagram
  * note: could use https://github.com/Frimkron/Ascidia to render it in a pretty manner.
