@@ -48,7 +48,7 @@ Below is a list of extensions and it's purpose.
  * () : 
  * {} : 
 
-> This usage is completely different than every other tag which wraps text (`\``, `*`, `**`, etc) which would make it both unconventional and very difficult for users. - nexussays 
+> This usage is completely different than every other tag which wraps text (`\`, `*`, `**`, etc) which would make it both unconventional and very difficult for users. - nexussays 
 > I say it's pretty obvious when it say's spoiler. And syntactically [] means content. Don't want to pollute the core syntax. -mofosyne
 
 * **fig** : figure
