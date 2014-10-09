@@ -39,6 +39,7 @@ Below is a list of extensions and it's purpose.
  * {} : 
 
 > This seems forced into the provided syntax. Why is this not a block element? Why is the title provided inside the syntax as opposed to just being text prior to the "TOC" tag? - nexussays 
+
 > Because unless the file can be changed by processor, it's probably safer to just autogenerate the TOC everytime it is rendered. But I don't see any reason it can't be a block directive, just needs a 'generated at date tag' - mofosyne
 
 * **spoiler** : Hides spoilers
@@ -58,6 +59,7 @@ Below is a list of extensions and it's purpose.
  * Block Directive Content : Content of figure 
 
 > How is this semantically different to a creator than an image and some text? How would it co-exist with existing syntax for images, and code blocks, both of which are mentioned in the spec as uses for the `<figure>` tag. What would this resolve to in non-HTML implementations? (ie - What "is" a figure?) - nexussays 
+
 > It's used in academia to indicate that a group of images, codes, statistics or data to be referenced in a report. It's used often in latex, and it's bloody annoying. -mofosyne
 
 * **ref** : link to figure 
@@ -67,4 +69,5 @@ Below is a list of extensions and it's purpose.
  * {} : type="override numeric/letter/figname"
 
 > What is this providing beyond duplicating the link syntax? - nexussays 
+
 > Yea I agree we should probably think about using the `[]:` somehow (if I'm correct that it can act as a figure) -mofosyne
