@@ -1,6 +1,12 @@
 Generic Directives is still in active discussion in http://talk.commonmark.org/t/generic-directives-plugins-syntax . But for brainstorming purposes, here is some possible extensions to support, or at least adhere to if not included. 
 
-It might look like `!extensionName[](){}`
+It might look like `!extensionName[](){}` for inline
+
+and for block
+
+   !!!extensionName[](){}
+   ...content...
+   !!!
 
 -------
 
