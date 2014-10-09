@@ -78,7 +78,7 @@ Below is a list of extensions and it's purpose.
 
 > Yea I agree we should probably think about using the `[]:` somehow (if I'm correct that it can act as a figure) -mofosyne
 
-* **ASCIIdiagram** : renders ASCII art / diagram
+* **asciiDiagram** : renders ASCII art / diagram
  * Purpose: Lets parser knows that the content is to be treated as ASCII art / diagram
  * [] : 
  * () : 
