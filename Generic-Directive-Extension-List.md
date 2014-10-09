@@ -77,3 +77,11 @@ Below is a list of extensions and it's purpose.
 > What is this providing beyond duplicating the link syntax? - nexussays 
 
 > Yea I agree we should probably think about using the `[]:` somehow (if I'm correct that it can act as a figure) -mofosyne
+
+* **ASCIIdiagram** : renders ASCII art / diagram
+ * Purpose: Lets parser knows that the content is to be treated as ASCII art / diagram
+ * [] : 
+ * () : 
+ * {} : renderAs='vector/bitmap/ASCII'
+ * Block: ASCII diagram
+ * note: could use https://github.com/Frimkron/Ascidia to render it in a pretty manner.
