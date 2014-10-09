@@ -100,3 +100,15 @@ Below is a list of extensions and it's purpose.
  * [] : wiki page name
  * () : optional direct link
  * {} : 
+
+* **dictionary** : looks up a dictionary
+ * Purpose: looks up a local dictionary or user's choice
+ * [] : word to reference
+ * () : optional direct link to alternative dictionary service
+ * {} : 
+
+* **thesaurus** : looks up a thesaurus
+ * Purpose: looks up a local thesaurus or user's choice
+ * [] : word to reference
+ * () : optional direct link to alternative thesaurus service
+ * {} : 
