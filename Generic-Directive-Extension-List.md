@@ -83,7 +83,7 @@ Below is a list of extensions and it's purpose.
  * [] : 
  * () : 
  * {} : renderAs='vector/bitmap/ASCII', width="width of image", height="height of image"
- * Block: ASCII diagram
+ * Block: ASCII art
  * note: rendering could be via taking the average density of each character split as a grid of 3*3 pixel per character.
  * note: Do this but in reverse http://mattmik.com/articles/ascii/ascii.html
 
@@ -94,3 +94,9 @@ Below is a list of extensions and it's purpose.
  * {} : renderAs='vector/bitmap/ASCII', width="width of image", height="height of image"
  * Block: ASCII diagram
  * note: could use https://github.com/Frimkron/Ascidia to render it in a pretty manner.
+
+* **wiki** : looks up a wiki page
+ * Purpose: in a wiki context, it is a directive to jump to a wiki page. In a normal site context, it references the most popular encyclopaedia wiki site (e.g. wikipedia)
+ * [] : wiki page name
+ * () : optional direct link
+ * {} : 
