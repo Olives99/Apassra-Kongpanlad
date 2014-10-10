@@ -2,9 +2,9 @@ Generic Directives is still in active discussion in http://talk.commonmark.org/t
 
 It might look like `!extensionName[](){}` for inline
 
-and for block
+and for block (Current talk page at http://talk.commonmark.org/t/block-directives/802 )
 
-    !!!extensionName[](){}
+    !!!extentionNames: argumentField { #id .class key1=value key2=value }
     ...BlockContent...
     !!!
 
