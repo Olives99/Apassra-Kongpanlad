@@ -38,6 +38,18 @@ Below is a list of extensions and it's purpose.
  * () : image url
  * {} : width="width of image", height="height of image"
 
+* **`extensionName`.help** : display documentation
+ * Purpose: displays documentations on how to use the extension
+ * [] : 
+ * () : 
+ * {} : shortVersion=True/False
+
+* **`extensionName`.settings** : 
+ * Purpose: allows for setting extensions if available
+ * [] : 
+ * () : 
+ * {} : available settings Dependent on extension
+
 * **TOC** : Table of contents
  * Purpose: Embed a table of content, based on header names.
  * [] : Title of TOC, could default to "Table of contents"
