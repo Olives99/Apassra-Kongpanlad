@@ -4,9 +4,11 @@ It might look like `!extensionName[](){}` for inline
 
 and for block (Current talk page at http://talk.commonmark.org/t/block-directives/802 )
 
-    !!!extentionNames: argumentField { #id .class key1=value key2=value }
+    extentionNames: argumentField 
+    :::
     ...BlockContent...
-    !!!
+    :::
+    { #id .class key1=value key2=value }
 
 -------
 
