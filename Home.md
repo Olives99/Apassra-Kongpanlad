@@ -1,1 +1,1 @@
-Welcome to the stmd wiki!
+Welcome to the CommonMark wiki!
