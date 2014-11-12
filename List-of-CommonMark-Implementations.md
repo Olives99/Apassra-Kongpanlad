@@ -10,7 +10,7 @@
 - [cmark](https://github.com/jgm/CommonMark) (reference
   implementation, high performance executable and library)
 
-## C\#
+## C# ##
 
 - [CommonMark.NET](https://github.com/Knagis/CommonMark.NET) (optimized
   for speed, see also https://www.nuget.org/packages/CommonMark.NET/)
