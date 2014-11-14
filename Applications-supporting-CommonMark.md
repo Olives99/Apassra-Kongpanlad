@@ -1,1 +1,1 @@
-- [markdownedit](http://mike-ward.net/markdownedit/), a CommonMark editor for Windows desktop
+- [Markdown Edit](http://mike-ward.net/markdownedit/), a CommonMark editor for Windows desktop
