@@ -28,6 +28,10 @@
 
 - [commonmark-java](https://github.com/armstnp/commonmark-java)
 
+### Go
+
+- [go-commonmark](https://github.com/rhinoman/go-commonmark) (wraps the C library)
+
 ### PHP
 
 - [commonmark-php](https://github.com/colinodell/commonmark-php)
