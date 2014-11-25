@@ -37,6 +37,10 @@
 - [commonmark-php](https://github.com/colinodell/commonmark-php)
 - [nexxes-php-commonmark](https://github.com/dennisbirkholz/nexxes-php-commonmark)
 
+### Ruby
+
+ - [commonmarker](https://github.com/jgm/commonmarker) - beginnings of a ruby wrapper for libcmark (work in progress)
+
 ### Python
 
 - [CommonMark-py](https://github.com/rolandshoemaker/CommonMark-py)
