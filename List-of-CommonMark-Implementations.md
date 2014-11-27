@@ -39,7 +39,7 @@
 
 ### Ruby
 
- - [commonmarker](https://github.com/jgm/commonmarker) - beginnings of a ruby wrapper for libcmark (work in progress)
+ - [commonmarker](https://github.com/jgm/commonmarker) - ruby wrapper for libcmark (work in progress)
 
 ### Python
 
