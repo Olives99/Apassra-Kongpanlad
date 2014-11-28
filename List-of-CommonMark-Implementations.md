@@ -58,3 +58,6 @@
 
 - [CommonMark.swift](https://github.com/bnickel/CommonMark.swift)
 
+### Elixir
+
+- [Cmark](https://github.com/asaaki/cmark.ex)
