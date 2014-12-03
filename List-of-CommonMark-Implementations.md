@@ -65,3 +65,4 @@
 ### Lua
 
 - [luacmark](https://github.com/jturner/luacmark)
+- [commonmark-lua](https://github.com/jgm/commonmark-lua) - luajit + FFI
