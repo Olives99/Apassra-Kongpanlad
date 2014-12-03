@@ -61,3 +61,7 @@
 ### Elixir
 
 - [Cmark](https://github.com/asaaki/cmark.ex)
+
+### Lua
+
+- [luacmark](https://github.com/jturner/luacmark)
