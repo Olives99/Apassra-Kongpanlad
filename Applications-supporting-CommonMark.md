@@ -1,1 +1,2 @@
 - [Markdown Edit](http://mike-ward.net/markdownedit/), a CommonMark editor for Windows desktop
+- [Markdown Editor](https://chrome.google.com/webstore/detail/markdown-editor/gjolennkaebiimakmoaadofoihhldjhb), A Chrome app. Supported on Windows, Linux, Mac and ChromeOS. Works offline.
