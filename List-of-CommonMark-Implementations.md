@@ -34,7 +34,7 @@
 
 ### PHP
 
-- [league/commonmark](https://github.com/thephpleague/commonmark)
+- [league/commonmark](https://github.com/thephpleague/commonmark) - Based on the CommonMark JS/C++ reference implementations
 
 ### Ruby
 
