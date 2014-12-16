@@ -35,7 +35,6 @@
 ### PHP
 
 - [league/commonmark](https://github.com/thephpleague/commonmark)
-- [nexxes-php-commonmark](https://github.com/dennisbirkholz/nexxes-php-commonmark)
 
 ### Ruby
 
