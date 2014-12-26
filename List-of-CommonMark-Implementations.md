@@ -12,12 +12,7 @@
 
 ### C# ###
 
-- [CommonMark.NET](https://github.com/Knagis/CommonMark.NET) (optimized
-  for speed and portability, see also https://www.nuget.org/packages/CommonMark.NET/)
-- [CommonMarkSharp](https://github.com/MortenHoustonLudvigsen/CommonMarkSharp)
-  (optimized for extensibility, see also
-  https://www.nuget.org/packages/CommonMarkSharp)
-
+- [CommonMark.NET](https://github.com/Knagis/CommonMark.NET) - available on [NuGet](https://www.nuget.org/packages/CommonMark.NET/)
 
 ### Objective C
 
