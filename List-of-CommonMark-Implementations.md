@@ -2,8 +2,8 @@
 
 - [commonmark.js](https://github.com/jgm/CommonMark) (reference
   implementation) - [`npm install commonmark`](https://www.npmjs.org/package/commonmark)
-- [Remarkable](https://github.com/jonschlinkert/remarkable) (high speed
-  pluggable implementation)
+- [Remarkable](https://github.com/jonschlinkert/remarkable) (high speed pluggable implementation)
+- [markdown-it](https://github.com/markdown-it/markdown-it) (high speed pluggable implementation)
 
 ### C
 
