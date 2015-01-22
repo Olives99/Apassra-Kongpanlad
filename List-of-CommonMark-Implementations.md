@@ -27,6 +27,10 @@
 
 - [go-commonmark](https://github.com/rhinoman/go-commonmark) (wraps the C library)
 
+### Perl
+
+- [CommonMark](https://metacpan.org/release/CommonMark) (wraps the C library)
+
 ### PHP
 
 - [league/commonmark](http://commonmark.thephpleague.com/) - Based on the JS/C++ reference implementations
