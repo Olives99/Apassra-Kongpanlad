@@ -27,6 +27,10 @@
 
 - [go-commonmark](https://github.com/rhinoman/go-commonmark) (wraps the C library)
 
+### Haskell
+
+- [cmark](http://hackage.haskell.org/package/cmark) (wraps the C library)
+
 ### Perl
 
 - [CommonMark](https://metacpan.org/release/CommonMark) (wraps the C library)
