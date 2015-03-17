@@ -40,7 +40,10 @@
 
 - [md_proc](https://github.com/dikmax/md_proc/commits/master)
 
-## Older, partial, and probably obsolete projects
+
+## Not recently maintained
+
+These projects are based on earlier versions of CommonMark and are now obsolete.  But they might be good starting points for new work.
 
 ### Ruby
 
