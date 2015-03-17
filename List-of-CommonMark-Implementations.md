@@ -1,9 +1,11 @@
+## Recently maintained projects
+
 ### JavaScript
 
 - [commonmark.js](https://github.com/jgm/CommonMark) (reference
   implementation) - [`npm install commonmark`](https://www.npmjs.org/package/commonmark)
-- [markdown-it](https://github.com/markdown-it/markdown-it) (high speed pluggable implementation)
-- [Remarkable](https://github.com/jonschlinkert/remarkable) (high speed pluggable implementation)
+- [markdown-it](https://github.com/markdown-it/markdown-it) (high speed pluggable implementation) - [`npm install markdown-it`](https://www.npmjs.org/package/markdown-it)
+- [Remarkable](https://github.com/jonschlinkert/remarkable) (high speed pluggable implementation) - [`npm install remarkable`](https://www.npmjs.org/package/remarkable)
 
 ### C
 
@@ -13,15 +15,6 @@
 ### C# ###
 
 - [CommonMark.NET](https://github.com/Knagis/CommonMark.NET) - available on [NuGet](https://www.nuget.org/packages/CommonMark.NET/)
-
-### Objective C
-
-- [CommonMark](https://github.com/Eonil/CommonMark) (Objective-C
-  wrapper)
-
-### Java
-
-- [commonmark-java](https://github.com/armstnp/commonmark-java)
 
 ### Go
 
@@ -38,6 +31,13 @@
 ### PHP
 
 - [league/commonmark](http://commonmark.thephpleague.com/) - Based on the JS/C++ reference implementations
+
+### Elixir
+
+- [Cmark](https://github.com/asaaki/cmark.ex)
+
+
+## Older, partial, and probably obsolete projects
 
 ### Ruby
 
@@ -60,12 +60,9 @@
 
 - [CommonMark.swift](https://github.com/bnickel/CommonMark.swift)
 
-### Elixir
-
-- [Cmark](https://github.com/asaaki/cmark.ex)
-
 ### Lua
 
 - [luacmark](https://github.com/jturner/luacmark)
 - [commonmark-lua](https://github.com/jgm/commonmark-lua) - luajit + FFI
 - [cmark-lua](https://github.com/jgm/cmark-lua)
+
