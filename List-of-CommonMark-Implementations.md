@@ -36,6 +36,9 @@
 
 - [Cmark](https://github.com/asaaki/cmark.ex)
 
+### Dart
+
+- [md_proc](https://github.com/dikmax/md_proc/commits/master)
 
 ## Older, partial, and probably obsolete projects
 
