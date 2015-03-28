@@ -48,6 +48,7 @@ These projects are based on earlier versions of CommonMark and are now obsolete.
 ### Ruby
 
  - [commonmarker](https://github.com/jgm/commonmarker) - ruby wrapper for libcmark (work in progress)
+ - [motion-markdown-it](https://github.com/digitalmoksha/motion-markdown-it) - port of markdown-it for ruby and RubyMotion
 
 ### Python
 
@@ -71,4 +72,3 @@ These projects are based on earlier versions of CommonMark and are now obsolete.
 - [luacmark](https://github.com/jturner/luacmark)
 - [commonmark-lua](https://github.com/jgm/commonmark-lua) - luajit + FFI
 - [cmark-lua](https://github.com/jgm/cmark-lua)
-
