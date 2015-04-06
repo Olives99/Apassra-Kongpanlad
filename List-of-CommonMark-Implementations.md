@@ -31,10 +31,6 @@
 
 - [league/commonmark](http://commonmark.thephpleague.com/) - Based on the JS/C++ reference implementations
 
-### Ruby/RubyMotion
-
-- [motion-markdown-it](https://github.com/digitalmoksha/motion-markdown-it/) - Based on the JS markdown-it library, ported to Ruby and RubyMotion
-
 ### Elixir
 
 - [Cmark](https://github.com/asaaki/cmark.ex)
@@ -42,6 +38,10 @@
 ### Dart
 
 - [md_proc](https://github.com/dikmax/md_proc/commits/master)
+
+### Ruby/RubyMotion
+
+- [motion-markdown-it](https://github.com/digitalmoksha/motion-markdown-it/) - Based on the JS markdown-it library, ported to Ruby and RubyMotion
 
 
 ## Not recently maintained
