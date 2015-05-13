@@ -41,17 +41,13 @@
 
 ### Ruby/RubyMotion
 
+- [CommonMarker](https://github.com/gjtorikian/commonmarker) (wraps the C library)
 - [motion-markdown-it](https://github.com/digitalmoksha/motion-markdown-it/) - Based on the JS markdown-it library, ported to Ruby and RubyMotion
 
 
 ## Not recently maintained
 
 These projects are based on earlier versions of CommonMark and are now obsolete.  But they might be good starting points for new work.
-
-### Ruby
-
- - [commonmarker](https://github.com/jgm/commonmarker) - ruby wrapper for libcmark (work in progress)
- - [motion-markdown-it](https://github.com/digitalmoksha/motion-markdown-it) - port of markdown-it for ruby and RubyMotion
 
 ### Python
 
