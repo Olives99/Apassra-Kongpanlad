@@ -44,6 +44,9 @@
 - [CommonMarker](https://github.com/gjtorikian/commonmarker) (wraps the C library)
 - [motion-markdown-it](https://github.com/digitalmoksha/motion-markdown-it/) - Based on the JS markdown-it library, ported to Ruby and RubyMotion
 
+### R
+
+ - [commonmark](http://cran.r-project.org/package=commonmark) (wraps the C library)
 
 ## Not recently maintained
 
