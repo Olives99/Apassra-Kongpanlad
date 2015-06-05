@@ -48,6 +48,10 @@
 
  - [commonmark](http://cran.r-project.org/package=commonmark) (wraps the C library)
 
+### Rust
+
+ - [pulldown-cmark](https://github.com/google/pulldown-cmark)
+
 ## Not recently maintained
 
 These projects are based on earlier versions of CommonMark and are now obsolete.  But they might be good starting points for new work.
