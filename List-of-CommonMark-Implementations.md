@@ -50,7 +50,6 @@
 ### Ruby/RubyMotion
 
 - [CommonMarker](https://github.com/gjtorikian/commonmarker) (wraps the C library)
-- [Simple ruby wrapper for cmark](https://github.com/jgm/cmark/blob/master/wrappers/wrapper.rb)
 - [motion-markdown-it](https://github.com/digitalmoksha/motion-markdown-it/) - Based on the JS markdown-it library, ported to Ruby and RubyMotion
 
 ### Racket
