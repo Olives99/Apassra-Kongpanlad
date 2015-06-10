@@ -23,14 +23,6 @@
 
 - [cmark](http://hackage.haskell.org/package/cmark) (wraps the C library)
 
-### Lua
-
-- [Simple luajit wrapper for cmark](https://github.com/jgm/cmark/blob/master/wrappers/wrapper.lua)
-
-### Python
-
-- [Simple python wrapper for cmark](https://github.com/jgm/cmark/blob/master/wrappers/wrapper.py)
-
 ### Perl
 
 - [CommonMark](https://metacpan.org/release/CommonMark) (wraps the C library)
@@ -51,10 +43,6 @@
 
 - [CommonMarker](https://github.com/gjtorikian/commonmarker) (wraps the C library)
 - [motion-markdown-it](https://github.com/digitalmoksha/motion-markdown-it/) - Based on the JS markdown-it library, ported to Ruby and RubyMotion
-
-### Racket
-
-- [Simple racket wrapper for cmark](https://github.com/jgm/cmark/blob/master/wrappers/wrapper.rkt)
 
 ### R
 
