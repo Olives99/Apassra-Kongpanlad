@@ -10,6 +10,8 @@ Proposed Extensions in Alphabetical Order
   - [Turning empty link definitions into anchors discussion](http://talk.commonmark.org/t/turning-empty-link-definitions-into-anchors/893)
 - Audio and Video
   - [Image-style syntax discussion](http://talk.commonmark.org/t/embedded-audio-and-video/441/9)
+- Attributes
+  - [Consistent Attribute syntax discussion](http://talk.commonmark.org/t/consistent-attribute-syntax/272)
 - Creative Works
   - [Discussion](http://talk.commonmark.org/t/referencing-creative-works-with-cite/892)
 - Code Blocks
