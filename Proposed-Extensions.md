@@ -1,4 +1,4 @@
-Proposed Extensions in Alphabetical Order
+Proposed Extensions in alphabetical order. Please make a [forum topic in the Extensions category](http://talk.commonmark.org/c/extensions) before posting an extension proposal here.
 
 - Abbreviations
   - [Markdown Extra syntax discussion](http://talk.commonmark.org/t/abbreviations-and-acronyms/890/13)
