@@ -47,6 +47,8 @@ Proposed Extensions in Alphabetical Order
   - [Phone number autolinks discussion](http://talk.commonmark.org/t/may-show-only-mail-and-phone-number-without-mailto-or-tel-prefixes/881) 
 - Lists
   - [Lists with no list marker discussion](http://talk.commonmark.org/t/lists-without-a-list-indicator-character/861)
+  - [Letter-ordered list discussion](http://talk.commonmark.org/t/letter-ordered-lists/173)
+  - [Alternative (1) ordered list discussion](http://talk.commonmark.org/t/alternative-1-ordered-list-syntax/742)
 - Macros
   - [Discussion](http://talk.commonmark.org/t/proposing-a-macro-standard-for-markdown/609)
 - Mathematics
