@@ -1,0 +1,75 @@
+Proposed Extensions in Alphabetical Order
+
+- Abbreviations
+  - [Markdown Extra syntax discussion](http://talk.commonmark.org/t/abbreviations-and-acronyms/890/13)
+  - [Link syntax discussion](http://talk.commonmark.org/t/abbr-tags-tooltips-using-link-syntax/965/5)
+- Alternative Mood or Voice
+  - [Discussion](http://talk.commonmark.org/t/alternate-voice-or-mood-i-tag-in-html5/1206)
+- Anchors
+  - [Discussion](http://talk.commonmark.org/t/internal-references-anchors-with-multiple-types/530)
+  - [Turning empty link definitions into anchors discussion](http://talk.commonmark.org/t/turning-empty-link-definitions-into-anchors/893)
+- Audio and Video
+  - [Image-style syntax discussion](http://talk.commonmark.org/t/embedded-audio-and-video/441/9)
+- Creative Works
+  - [Discussion](http://talk.commonmark.org/t/referencing-creative-works-with-cite/892)
+- Code Blocks
+  - [Filenames and line numbers discussion](http://talk.commonmark.org/t/code-blocks-extension-for-filenames-and-line-numbers/536)
+- Compact URLs
+  - [Discussion](http://talk.commonmark.org/t/compact-uris-curies/553)
+- Description List
+  - [Discussion](http://talk.commonmark.org/t/description-list/289)
+  - [Automatic Key/Value Rendering discussion](http://talk.commonmark.org/t/autodetect-key-value-as-visible-metadata/863)
+- Details
+  - [Discussion](http://talk.commonmark.org/t/html-details-tag/759)
+- Directives 
+  - [Generic directives/plugins syntax discussion](http://talk.commonmark.org/t/generic-directives-plugins-syntax/444)
+  - [Spoiler tag syntax discussion](http://talk.commonmark.org/t/what-could-a-spoiler-tag-extension-look-like/767)
+  - [Block directives discussion](http://talk.commonmark.org/t/block-directives/802)
+  - [Content block discussion](http://talk.commonmark.org/t/content-block-inline-syntax/815)
+  - [CSS classes on blocks discussion](http://talk.commonmark.org/t/css-classes-on-any-block/711)
+- Document Format
+  - [Discussion](http://talk.commonmark.org/t/commonmark-document-specification-for-desktop-readers/956)
+- Emojis
+  - [Discussion](http://talk.commonmark.org/t/the-inevitable-markdownextra-topic/42)
+- Forms
+  - [Multiple Choice Quizzes Discussion](http://talk.commonmark.org/t/multiple-choice-quizzes-in-commonmark/1214)
+  - [Form Inputs discussion](http://talk.commonmark.org/t/introducing-markdown-extensions-for-form-input/432)
+- Footnotes
+  - [Discussion](http://talk.commonmark.org/t/how-should-footnotes-behave/1106)
+- Highlighted Text
+  - [Discussion](http://talk.commonmark.org/t/highlighting-text-with-the-mark-element/840)
+- Images
+  - [Floating Images discussion](http://talk.commonmark.org/t/floating-images/266)
+  - [Linked Images discussion](http://talk.commonmark.org/t/linked-images-confusing-syntax/933)
+  - [Images without alternative text discussion](http://talk.commonmark.org/t/why-not-allow-images-without-alt/617)
+- Links
+  - [Implicit links discussion](http://talk.commonmark.org/t/implict-mediawiki-gollum-style-page-links/830)
+  - [Phone number autolinks discussion](http://talk.commonmark.org/t/may-show-only-mail-and-phone-number-without-mailto-or-tel-prefixes/881) 
+- Lists
+  - [Lists with no list marker discussion](http://talk.commonmark.org/t/lists-without-a-list-indicator-character/861)
+- Macros
+  - [Discussion](http://talk.commonmark.org/t/proposing-a-macro-standard-for-markdown/609)
+- Mathematics
+  - [Discussion](http://talk.commonmark.org/t/mathematics-extension/457)
+  - [MathJax Discussion](http://talk.commonmark.org/t/mathjax-extension-for-latex-equations/698)
+- Mentions
+  - [@Mentions discussion](http://talk.commonmark.org/t/a-mentions-plugin/837)
+- Meta Data
+  - [Document Titles discussion](http://talk.commonmark.org/t/internal-references-anchors-with-multiple-types/530)
+  - [Jekyll-style do not parse section discussion](http://talk.commonmark.org/t/jekyll-style-do-not-show-or-parse-sections/918)
+- Reviewing Markup
+  - [Discussion](http://talk.commonmark.org/t/reviewing-markups/824)
+- Sections
+  - [Explicit section not possible discussion](http://talk.commonmark.org/t/explicit-section-not-possible/796)
+- Slideshows
+  - [Discussion](http://talk.commonmark.org/t/slide-presentations/856)
+- Small Text
+  - [Discussion](http://talk.commonmark.org/t/small-tag-mapping/804)  
+- Strikethrough
+  - [Discussion](http://talk.commonmark.org/t/strikeout-threw-out-strikethrough-strikes-out-throughout/820)
+- Subscript and Supscipt
+  - [Discussion](http://talk.commonmark.org/t/why-there-is-no-syntax-for-subscript-and-supscript/586)
+- Tables
+  - [Discussion](http://talk.commonmark.org/t/tables-in-pure-markdown/81)
+- Task Lists
+  - [Discussion](http://talk.commonmark.org/t/task-lists-in-standard-markdown/41)
