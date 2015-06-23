@@ -7,3 +7,4 @@ Welcome to the CommonMark wiki!
 - [[Proposed Extensions to CommonMark]]
 
 - [[Proposed Extensions]]
+- [[Markdown Flavors]]
