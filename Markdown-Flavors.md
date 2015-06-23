@@ -23,6 +23,7 @@ This aim of this list is to document all Markdown syntax variations (rather than
 - [PHP Markdown Extra Extended](https://github.com/egil/php-markdown-extra-extended)
 - [Python Markdown](http://pythonhosted.org/Markdown/extensions/)
 - [Redcarpet](https://github.com/vmg/redcarpet)
+- [Remarkable](https://github.com/jonschlinkert/remarkable#syntax-extensions)
 - [Showdown](https://github.com/showdownjs/showdown/wiki/Known-Differences-in-Output)
 - [StackOverflow's Markdown](http://stackoverflow.com/editing-help)
 - [Taiga Markdown](https://taiga.io/support/taiga-markdown-syntax/)
