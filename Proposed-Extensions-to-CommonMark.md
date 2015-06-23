@@ -1,6 +1,12 @@
 Terminology
 ========================================================================
-flavor, variant, dialect, syntactic sugar, extension, plug-in, add-on …
+flavor, variant, dialect, 
+syntactic sugar, 
+extension, plug-in, add-on …
+
+deployed = active by default, 
+implemented = optional extension, 
+proposed = not implemented anywhere
 
 Concepts described on separate pages
 ========================================================================
@@ -13,29 +19,64 @@ Critic Markup
 deletion
 ------------------------------------------------------------------------
 
+```html5
+<del>deletion</del>
+```
+
 change (removal/replacement)
 ------------------------------------------------------------------------
+
+```html5
+<del>removal</del><ins>replacement</ins>
+```
 
 addition
 ------------------------------------------------------------------------
 
-highlighting
+```html5
+<ins>addition</ins>
+```
+
+highlighting, marked text
 ------------------------------------------------------------------------
+
+```html5
+<mark>highlighted</mark>
+```
 
 comment
 ------------------------------------------------------------------------
 
-Marked Text
-------------------------------------------------------------------------
+```html5
+<span title="comment">text</span>
+```
 
 Strike-through
 ------------------------------------------------------------------------
 
+```html5
+<s>stricken</s>
+```
+
 Underlines
 ------------------------------------------------------------------------
 
+```html5
+<u>underlined</u>
+```
+
 Line Breaks
 ========================================================================
+
+```html5
+line<br>
+break
+```
+
+```xhtml
+line<br />
+break
+```
 
 Links
 ========================================================================
@@ -46,11 +87,25 @@ Link Syntax Sugar
 automatic IDs
 ------------------------------------------------------------------------
 
+```html5
+<h1 id="heading">Heading</h1>
+```
+
 Implicit Shortcut Links
 ------------------------------------------------------------------------
 
+```html5
+<a href="#heading">Heading</a>
+```
+
 Shortcut Reference Links
 ------------------------------------------------------------------------
+
+```html5
+<a href="http://example.com">Reference</a>
+```
+
+see also: CURIE
 
 Notes
 ========================================================================
@@ -58,17 +113,54 @@ Notes
 footnotes / endnotes
 ------------------------------------------------------------------------
 
+```html5
+<p>text<a href="#fn1" class="footnote marker" id="fn1.1">1</a></p>
+
+<footer>
+<p id="fn1">note, <a href="#fn1.1">↪︎</a></p>
+</footer>
+```
+
 marginnotes / sidenotes / asides
 ------------------------------------------------------------------------
+
+```html5
+<p>text<a href="#sn1" class="sidenote marker" id="sn1.1">1</a></p>
+
+<aside>
+<p id="sn1">note, <a href="#sn1.1">↪︎</a></p>
+</aside>
+```
 
 slidenotes
 ------------------------------------------------------------------------
 
+```html5
+<aside>
+<p>note</p>
+</aside>
+```
+
 tooltips
 ------------------------------------------------------------------------
 
+```html5
+<span class="tooltip" title="note">text</a>
+```
+
 Spoiler Warnings, hidden answers
 ========================================================================
+
+```html5
+<p class="spoiler">spoiler</p>
+```
+
+```css
+.spoiler {color: transparent;}
+.spoiler:focus,
+.spoiler:active,
+.spoiler:hover {color: black;}
+```
 
 Paragraph Types or Classes
 ========================================================================
@@ -121,8 +213,16 @@ see [Book Structure]
 page breaks / pagination
 ------------------------------------------------------------------------
 
+```html5
+<hr>
+```
+
 page number references
 ------------------------------------------------------------------------
+
+```html5
+<a href="#reference">Reference on page 1</a>
+```
 
 Book Structure
 ========================================================================
@@ -130,17 +230,45 @@ Book Structure
 cover, frontmatter, preface, introduction
 ------------------------------------------------------------------------
 
+```html5
+<header class="cover">
+…
+</header>
+```
+
+```html5
+<section class="frontmatter">
+…
+</section>
+```
+
 mainmatter
 ------------------------------------------------------------------------
 
+```html5
+<article class="mainmatter">
+…
+</article>
+```
+
 backmatter, appendices, imprint
 ------------------------------------------------------------------------
+
+```html5
+<footer class="backmatter">
+…
+</footer>
+```
 
 Metadata
 ========================================================================
 
 Global Document Metadata
 ------------------------------------------------------------------------
+
+```html5
+<title>Title</title>
+```
 
 attributes, parameters
 ------------------------------------------------------------------------
@@ -179,8 +307,20 @@ Abbreviations and Acronyms
 ------------------------------------------------------------------------
 and expansions thereof
 
-Technical and Legal Terms
+```html5
+<abbr title="expansion">abbr.</abbr>
+```
+
+Technical and Legal Terms, keywords
 ------------------------------------------------------------------------
+
+```html5
+<dfn>term</dfn>
+```
+
+```html5
+<b>term</b>
+```
 
 Lists
 ========================================================================
@@ -191,14 +331,46 @@ Glossaries
 Definition Lists
 ------------------------------------------------------------------------
 
+```html5
+<dl>
+<dt>term
+<dd>definition
+</dl>
+```
+
+```xhtml
+<dl>
+<dt>term</dt>
+<dd>definition</dd>
+</dl>
+```
+
 FAQ Lists / Q&A
 ------------------------------------------------------------------------
+
+```html5
+<dl>
+<dt>question?
+<dd>answer!
+</dl>
+```
 
 Pro-Con Lists, Feature lists, Changelog
 ------------------------------------------------------------------------
 
+```html5
+<ul>
+<li class="pro">pro
+<li class="con">con
+</ul>
+```
+
 Numbered Examples
 ------------------------------------------------------------------------
+
+```html5
+<p class="example" id="ex1">example</p>
+```
 
 Tables
 ========================================================================
@@ -206,8 +378,18 @@ Tables
 Cells
 ------------------------------------------------------------------------
 
+```html5
+<td>cell</td>
+```
+
 Rows
 ------------------------------------------------------------------------
+
+```html5
+<tr>
+<td>Row
+</tr>
+```
 
 Columns
 ------------------------------------------------------------------------
@@ -215,8 +397,18 @@ Columns
 Column Headers
 ------------------------------------------------------------------------
 
+```html5
+<th>header</th>
+```
+
 Row Headers
 ------------------------------------------------------------------------
+
+```html5
+<tr><th>header</th>
+…
+</tr>
+```
 
 Horizontal Alignment
 ------------------------------------------------------------------------
@@ -256,6 +448,11 @@ templates (layout, variables), designs, themes (colors, pictures), skins
 
 Forms
 ========================================================================
+
+```html5
+<form action="./">
+</form>
+```
 
 Static Forms, Questionnaire
 ------------------------------------------------------------------------
