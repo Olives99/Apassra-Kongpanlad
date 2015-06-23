@@ -365,6 +365,16 @@ Pro-Con Lists, Feature lists, Changelog
 </ul>
 ```
 
+To-do List, Agenda
+------------------------------------------------------------------------
+
+```html5
+<ul>
+<li class="todo">to do
+<li class="done">done
+</ul>
+```
+
 Numbered Examples
 ------------------------------------------------------------------------
 
@@ -460,23 +470,47 @@ Static Forms, Questionnaire
 Interactive Forms
 ------------------------------------------------------------------------
 
-Checkbox Widget
+Checkbox Widget, m:n
 ------------------------------------------------------------------------
 
-Radio Button Widget
+```html5
+<input type="checkbox">
+```
+
+Radio Button Widget, 1:n
 ------------------------------------------------------------------------
+
+```html5
+<input type="radio">
+```
 
 Line Input Widget
 ------------------------------------------------------------------------
 
+```html5
+<input type="text">
+```
+
 Password Input Widget
 ------------------------------------------------------------------------
 
-Email Input Widget
+```html5
+<input type="password">
+```
+
+Email Address Input Widget
 ------------------------------------------------------------------------
+
+```html5
+<input type="email">
+```
 
 Date and Time Input Widgets
 ------------------------------------------------------------------------
+
+```html5
+<input type="date">
+```
 
 Color Input Widget
 ------------------------------------------------------------------------
@@ -523,14 +557,26 @@ References
 Citations
 ------------------------------------------------------------------------
 
+```html5
+<cite>key</cite>
+```
+
 Bibliography = list of references
 ------------------------------------------------------------------------
 
 User Names (mentions)
 ------------------------------------------------------------------------
 
+```html5
+<a href="/user/name" title="User Name">@name</a>
+```
+
 Tags and Categories, Keywords
 ------------------------------------------------------------------------
+
+```html5
+<a href="/tag/name" title="Tag Name">#name</a>
+```
 
 Symbols
 ========================================================================
