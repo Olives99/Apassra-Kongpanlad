@@ -10,7 +10,7 @@ This aim of this list is to document all Markdown syntax variations (rather than
 - [GitLab Flavored Markdown](https://gitlab.com/help/markdown/markdown)
 - [iA Writer's Markdown](https://ia.net/writer/support/general/markdown-guide)
 - [Kramdown](http://kramdown.gettalong.org/quickref.html)
-- Leanpub Flavored Markdown
+- [Leanpub Flavored Markdown](https://leanpub.com/help/manual#leanpub-auto-markdown-extensions-in-leanpub)
 - [Litedown](http://s9etextformatter.readthedocs.org/Plugins/Litedown/Synopsis/)
 - [Lunamark](http://jgm.github.io/lunamark/lunamark.1.html)
 - [Markdown](http://daringfireball.net/projects/markdown/syntax)
