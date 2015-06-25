@@ -7,7 +7,7 @@ This aim of this list is to document all Markdown syntax variations (rather than
 - [Discount](http://www.pell.portland.or.us/~orc/Code/discount/#Language.extensions)
 - [Ghost's Markdown/Haunted Markdown](https://github.com/TryGhost/Ghost/wiki/Future-of-Markdown#features)
 - [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/)
-- [GitLab Flavored Markdown](https://gitlab.com/help/markdown/markdown)
+- [GitLab Flavored Markdown](http://doc.gitlab.com/ce/markdown/markdown.html) ([with login](https://gitlab.com/help/markdown/markdown))
 - [iA Writer's Markdown](https://ia.net/writer/support/general/markdown-guide)
 - [Kramdown](http://kramdown.gettalong.org/quickref.html)
 - [Leanpub Flavored Markdown](https://leanpub.com/help/manual#leanpub-auto-markdown-extensions-in-leanpub)
