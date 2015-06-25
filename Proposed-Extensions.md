@@ -64,7 +64,8 @@ Proposed Extensions in alphabetical order. Please make a [forum topic in the Ext
 - Reviewing Markup
   - [Discussion](http://talk.commonmark.org/t/reviewing-markups/824)
 - Sections
-  - [Explicit section not possible discussion](http://talk.commonmark.org/t/explicit-section-not-possible/796)
+  - [Explicit section not possible? discussion](http://talk.commonmark.org/t/explicit-section-not-possible/796)
+  - [Horizontal rules as (hierarchical) section breaks discussion](http://talk.commonmark.org/t/horizontal-rules-as-hierarchical-section-breaks-etc/1241)
 - Slideshows
   - [Discussion](http://talk.commonmark.org/t/slide-presentations/856)
 - Small Text
