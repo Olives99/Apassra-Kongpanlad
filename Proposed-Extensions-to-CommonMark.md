@@ -171,12 +171,16 @@ abstract, introduction/lede, byline, …
 
 Textbook boxes, Blurbs
 ------------------------------------------------------------------------
-warning, tip, error, information, question, discussion, exercise
+discussion, error, exercise, information, question, tip, warning
 <https://leanpub.com/markua/read#leanpub-auto-blurbs>
+
+rST admonitions
+------------------------------------------------------------------------
+attention, caution, danger, ~~error~~, hint, important, note, ~~tip~~, ~~warning~~
 
 Science
 ------------------------------------------------------------------------
-definition, law, lemma, corollary, hypothesis, theorem, proof
+corollary, definition, hypothesis, law, lemma, proof, theorem
 
 Other
 ------------------------------------------------------------------------
