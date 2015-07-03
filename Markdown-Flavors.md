@@ -1,6 +1,6 @@
 A list of Markdown flavors in alphabetical order.
 
-This aim of this list is to document all Markdown syntax variations (rather than implementations). There is [a list of Markdown implementations](https://github.com/markdown/markdown.github.com/wiki/Implementations) on the Markdown GitHub Organization which could be reviewed to find further flavors to add to this list.
+The aim of this list is to document all Markdown syntax variations (rather than implementations). There is [a list of Markdown implementations](https://github.com/markdown/markdown.github.com/wiki/Implementations) on the Markdown GitHub Organization which could be reviewed to find further flavors to add to this list.
 
 - [CommonMark](http://spec.commonmark.org/)
 - [CriticMarkup](http://criticmarkup.com/spec.php)
@@ -29,3 +29,5 @@ This aim of this list is to document all Markdown syntax variations (rather than
 - [Taiga Markdown](https://taiga.io/support/taiga-markdown-syntax/)
 - [Trello's Markdown](http://help.trello.com/article/821-using-markdown-in-trello)
 - [vfmd](http://www.vfmd.org/vfmd-spec/syntax/)
+
+Extensions to standard syntax that are described in the documentation of these flavors is collected at [[Deployed Extensions]].
