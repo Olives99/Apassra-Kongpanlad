@@ -17,6 +17,7 @@
 
 ### Go
 
+- [opennota](https://github.com/opennota/markdown) - pure Go implementation
 - [go-commonmark](https://github.com/rhinoman/go-commonmark) (wraps the C library)
 
 ### Haskell
