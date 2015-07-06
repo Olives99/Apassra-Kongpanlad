@@ -62,7 +62,7 @@ The optional title in reference-style links follows the address, but it needs to
 `[[mnemonic target]]`  
 `[[mnemonic target|text]]` 
 Shortcut or implicit links – where the address or identifier can be derived from the title in a straightforward manner – are quite common, too, but the exact syntax differs a bit. Leaving the second pair of square brackets empty is the most common approach (while the reverse is seen nowhere). Leaving them out altogether is even more author-friendly, but it is also prone to become ambiguous or being unintended (hence leading nowhere). Doubling opening and closing brackets is an alternative that has been inherited from wiki syntax, MediaWiki in particular, but its different syntax for link text, which employs a pipe character as separator, is probably not worth consideration, because that can already be done with existing markdown syntax.
-* [Test shortcut/implicit link syntax](http://johnmacfarlane.net/babelmark2/?normalize=1&text=%5Bempty+ID%5D%5B%5D%2C+%5Bshortcut%5D%2C+%5B%5Bwiki-style%5D%5D%2C+%5B%5Bwiki-style%7Ctext%5D%5D%0A%0A%23+Empty+ID%0A%0A%23+Shortcut%0A%0A%23+Wiki-Style%0A)
+* [Test shortcut/implicit link syntax](http://johnmacfarlane.net/babelmark2/?normalize=1&text=%5Bempty+ID%5D%5B%5D%2C+%5Bshortcut%5D%2C+%5B%5Bwiki-style%5D%5D%2C+%5B%5Bwiki-style%7Ctext%5D%5D%0A%0A%5Bempty+ID+ref%5D%5B%5D%2C+%5Bshortcut+ref%5D%2C+%5B%5Bwiki-style+ref%5D%5D%2C+%5B%5Bwiki-style+ref%7Ctext%5D%5D%0A%0A%23+Empty+ID%0A%0A%23+Shortcut%0A%0A%23+Wiki-Style%0A%0A++%5Bempty+ID+ref%5D%3A+http%3A%2F%2Fexample.com%2Femtpyid%0A++%5Bshortcut+ref%5D%3A+http%3A%2F%2Fexample.com%2Fshortcut%0A++%5Bwiki-style+ref%5D%3A+http%3A%2F%2Fexample.com%2Fwiki%0A)
 
 `[^id]` ↩︎ …  
 `[^id]: note` 
@@ -77,7 +77,7 @@ Named and anonymous footnotes or endnotes are implemented the same way everywher
 For scientific citations, there are two approaches found in markdown flavors. The first works just like reference footnotes, except that it uses a hash character `#` as identifer prefix. The citation is found verbatim in the document instead of the web address (URL). The second approach uses the at-sign `@` instead and relies on an external biography database. The latter one also supports location/page info in a very basic way.
 * [Test citation syntax](http://johnmacfarlane.net/babelmark2/?normalize=1&text=source%5B%23hashid%5D+and+source%5Bp.+1%5D%5B%40atid%5D%2C+also+just+author+%40atid+%5Bpage+2%5D%0A%0A++%5B%23hashid%5D%3A+citation%0A++%5B%40atid%5D%3A+another)
 
-`ACRO` ↩︎ …  
+`ACRO` … ↩︎  
 `  *[ACRO]: expansion` 
 For abbreviations and acronyms, possibly general technical terms, too, there is a convention that uses reference definitions, too, but finds inline uses automatically. Another difference is that the marker, an asterisk `*`, goes in front of the square brackets in the reference line, which probably was intended to improve fallback, because the abbreviation “glossary” might be rendered as a bullet list this way.  
 `[abbr](abbr:expansion)` 
