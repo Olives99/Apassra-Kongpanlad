@@ -8,7 +8,7 @@ The aim of this list is to document all Markdown syntax variations (rather than 
 - [Ghost's Markdown/Haunted Markdown](https://github.com/TryGhost/Ghost/wiki/Future-of-Markdown#features)
 - [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/)
 - [GitLab Flavored Markdown](http://doc.gitlab.com/ce/markdown/markdown.html) ([with login](https://gitlab.com/help/markdown/markdown))
-- [Haroopad Flavored Markdown](http://pad.haroopress.com/page.html?f=haroopad-flavored-markdown) <!--!-->
+- [Haroopad Flavored Markdown](http://pad.haroopress.com/page.html?f=haroopad-flavored-markdown)
 - [iA Writer's Markdown](https://ia.net/writer/support/general/markdown-guide)
 - [Kramdown](http://kramdown.gettalong.org/quickref.html)
 - [Leanpub Flavored Markdown](https://leanpub.com/help/manual#leanpub-auto-markdown-extensions-in-leanpub)
