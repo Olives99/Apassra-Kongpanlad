@@ -24,6 +24,10 @@
 
 - [cmark](http://hackage.haskell.org/package/cmark) (wraps the C library)
 
+### Java
+
+- [commonmark-java](https://github.com/atlassian/commonmark-java) - pure Java
+
 ### Perl
 
 - [CommonMark](https://metacpan.org/release/CommonMark) (wraps the C library)
