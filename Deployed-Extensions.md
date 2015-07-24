@@ -63,7 +63,7 @@ A single implementation recognizes single roman letters and English standard key
 
 `((badge))`  
 `!((important badge))`  
-`[[label]]``  
+`[[label]]`  
 `![[important label]]` 
 One flavor offers markup for inline badges and labels from the [Bootstrap] framework.
 * [Test badges and labels syntax]()
