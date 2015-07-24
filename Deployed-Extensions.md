@@ -4,7 +4,7 @@ This is a list of syntax extensions to standard Markdown/Commonmark found in the
 
 `_italic_ __bold__ ___bold italic___ ____underlined____` 
 Some implementations go the Textile? way of differentiating semantic (strong) emphasis from presentational italic and boldface markup. Over there, the latter is achieved by doubling asterisk `*` or underscore `_`, markdown flavors instead choose the underscore, single and double, for the purely stylistic meaning and they add another layer with four underscores rendering the enclosed text with an underline, which was the reason for using the underscore in the first place. Fallback for the latter is surprisingly unsatisfactory, though, because some implementations will parse four underscores neither as double bold nor as open and immediate close bold, but something more strange.
-* [Test underline syntax](http://johnmacfarlane.net/babelmark2/?normalize=1&text=*+_italic_%0A*+__bold__%0A*+___bold+italic___%0A*+____underlined__₎
+* [Test underline syntax](http://johnmacfarlane.net/babelmark2/?normalize=1&text=*+_italic_%0A*+__bold__%0A*+___bold+italic___%0A*+____underlined____)
 * **Recommendation:** Allow *optional* different treatment of asterisk `*` (semantic) and underscore `_` (presentational) when used as phrase affixes. Only then extend the presentational markup to underlines, using 4 underscores on each side. Also, define the meaning and parsing of more than 3 asterisks or underscores everywhere.
 
 `^superscript^`  
@@ -261,11 +261,11 @@ Besides dash `-` and asterisk `*`, the plus sign can be used in many flavors for
 `X> exercise`  
 `B> blurp` 
 `G> generic`  
-`[[ alert ]]`  
-`[[ Important: error ]]`  
-`[[ Info: info ]]`  
+`[[ alert ]]` 
+`[[ Important: error ]]` 
+`[[ Info: info ]]` 
 `[[ Hint: success ]]` 
-Some flavors add predefined paragraph types and they overload blockquote syntax in one way or the other to do so. An additional mark (or letter) after the greater-than sign will probably have better backwards compatibility than one before it. The selection of paragraph types will always leave some people wanting, so maybe (only) a generic mechanism to add custom classes would be better. Spoiler paragraphs reveal their textual content on hover.
+Some flavors add predefined paragraph types and they overload blockquote syntax in one way or the other to do so. An additional mark (or letter) after the greater-than sign will probably have better backwards compatibility than one before it. The selection of paragraph types will always leave some people wanting, so maybe (only) a generic mechanism to add custom classes would be better. One implementation references [Bootstrap] for classes. Spoiler paragraphs reveal their textual content on hover.
 * [Test paragraph type syntax](http://johnmacfarlane.net/babelmark2/?normalize=1&text=%3E!+spoiler%0A%0A-%3E+center+%3C-%0A%0AC%3E+center%0A)
 * **Recommendation:** This may be handled by the **info string module**, but no final recommendation is given here.
 
