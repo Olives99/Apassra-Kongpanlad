@@ -37,6 +37,11 @@ One implementation that does not mark up additions and removals has a different 
 * [Test editorial syntax](http://johnmacfarlane.net/babelmark2/?normalize=1&text=%7B--+removed+content+--%7D+with+%7B%2B%2B+added+content+%2B%2B%7D+or+%7B~~+original+~%3E+changed+~~%7D+and+%7B%3D%3D+highlighted+%3D%3D%7D+CriticMarkup.%0A%0A%7B--removed+content--%7D+with+%7B%2B%2Badded+content%2B%2B%7D+or+%7B~~original~%3Echanged~~%7D+and+%7B%3D%3Dhighlighted%3D%3D%7D+CriticMarkup+without+spaces.%0A%0A~~removed+content~~+or+--removed+content--+with+%2B%2Badded+content%2B%2B+and+%3D%3Dhighlighted%3D%3D+or+%3F%3F%3Fhighlighted%3F%3F%3F+markdown.)
 * **Recommendation:** Standardize an optional extension for collaboration, using double affixes (tilde `~~`, plus `++` and equals `==`) without curly braces.
 
+`--small--`  
+`++big++`  A single flavor uses different semantics for double plus and minus affixes, namely font size changes.
+* [Test font size syntax](http://johnmacfarlane.net/babelmark2/?normalize=1&text=%7B--small+text--+%2B%2Bbig+text%2B%2B)
+* **Recommendation:** Ignore. Although `<small>` is in HTML5 for less important text, mere font size changes should be handled by stylesheets.
+
 `"short quote"`  
 `""cited title""` 
 `"""cited title"""` 
@@ -51,7 +56,21 @@ Some authors want to add comments to source documents that shall not appear at a
 * [Test comment syntax](http://johnmacfarlane.net/babelmark2/?normalize=1&text=*+%3C!--+HTML+comment+--%3E%0A*+%3C!---+special+HTML+comment+---%3E%0A*+%3E%3Eangular+bracket+comment%3C%3C%0A*+%7B%3A%3ACOMMENT%7Dverbose+comment%7B%3A%2FCOMMENT%7D)
 * **Recommendation:** Make it standard core behavior to pass through unaltered basic HTML comments with 2 dashes `--` on both sides, but completely remove all HTML comments with 3 or more consecutive dashes `---` on both sides. Visible, editorial comments should be part of the collaboration extension described above, using inverted double angular brackets `>>` and `<<`.
 
+`[Alt]+[Q]` 
+A single implementation recognizes single roman letters and English standard keyboard abbreviations inside square brackets to properly mark them up as user input.
+* [Test keyboard syntax](http://johnmacfarlane.net/babelmark2/?normalize=1&text=%5BAlt%5D%2B%5BQ%5D)
+* **Recommendation:** Ignore for now. Most people use code markup instead.
+
+`((badge))`  
+`!((important badge))`  
+`[[label]]``  
+`![[important label]]` 
+One flavor offers markup for inline badges and labels from the [Bootstrap] framework.
+* [Test badges and labels syntax]()
+* **Recommendation:** Ignore for now. Such labels and badges are mostly used with content that is usually not made with markdown, they usually contain automatically generated or repetitive, pre-defined text.
+
   [CM]: http://criticmarkup.com
+  [Bootstrap]: http://getbootstrap.com/components/#labels
   
 ## Link and Reference Markup Extensions
 
@@ -125,7 +144,8 @@ There have been various proposals on how to embed videos and other media from ex
 `{toc}`  
 `[toc]`  
 `[[toc]]`  
-`@[toc](heading)` 
+`@[toc](heading)`  
+`<!-- md-toc -->` 
 Many implementations assign unique identifiers to all headings and maybe to other output elements as well. It‘s a simple step from there to supply an automatically generated table of contents, although viewers for output formats like PDF have built-in support for document structure. There are several variants to markup the English keyword `toc` to place this TOC at a certain position inside the document. One flavor uses the same link-based syntax with at-sign `@` as for media embeds. The other variants often align with similar processing instructions as well.  
 `{frontmatter}` 
     `{half-title}` 
@@ -240,7 +260,11 @@ Besides dash `-` and asterisk `*`, the plus sign can be used in many flavors for
 `W> warning` 
 `X> exercise`  
 `B> blurp` 
-`G> generic` 
+`G> generic`  
+`[[ alert ]]`  
+`[[ Important: error ]]`  
+`[[ Info: info ]]`  
+`[[ Hint: success ]]` 
 Some flavors add predefined paragraph types and they overload blockquote syntax in one way or the other to do so. An additional mark (or letter) after the greater-than sign will probably have better backwards compatibility than one before it. The selection of paragraph types will always leave some people wanting, so maybe (only) a generic mechanism to add custom classes would be better. Spoiler paragraphs reveal their textual content on hover.
 * [Test paragraph type syntax](http://johnmacfarlane.net/babelmark2/?normalize=1&text=%3E!+spoiler%0A%0A-%3E+center+%3C-%0A%0AC%3E+center%0A)
 * **Recommendation:** This may be handled by the **info string module**, but no final recommendation is given here.
@@ -249,6 +273,14 @@ Some flavors add predefined paragraph types and they overload blockquote syntax 
 One flavor adds the possibility to add a URL reference to block quotations. It is put in parentheses directly after the first line prefix `>`.
 * [Test sourced blockquote syntax](http://johnmacfarlane.net/babelmark2/?normalize=1&text=%3E+%28http%3A%2F%2Fexample.com%2Fsource%29+quote)
 * **Recommendation:** No final recommendation is provided. It would be at least as useful to parse the line or paragraph above the block quote if it ends with a colon `:`. Another common pattern to specify sources is a line introduced by 2 dashes `--` that is placed immediately after the block quote.
+
+`###` ↩︎ 
+`jumbotron. hero unit` ↩︎ 
+`###`  
+`!!! lede paragraph` 
+A single implementation that is much inspired by [Bootstrap](http://getbootstrap.com/components/#jumbotron) classes adds markup for special header blocks and lede paragraphs (probably reusable as abstract).
+* [Test Bootstrap syntax](http://johnmacfarlane.net/babelmark2/?normalize=1&text=%23%23%23%0AJumbotron%0A---%0A%0AHero+unit%0A%23%23%23%0A)
+* **Recommendation:** There may be a need for a header syntax which could use fences, but no exact recommendation is given yet.
 
 `> %class%` ↩︎ 
 `> prefixed block`  
@@ -274,6 +306,8 @@ Some kinds and pieces of text have meaningful linebreaks and may also use semant
 * [Test pre-wrap block syntax](http://johnmacfarlane.net/babelmark2/?normalize=1&text=%7C+a+poem++or++an+address%0A%7C+that+is+what+this+test%0A%7C++++++++++++++will+test%0A)
 * **Recommendation:** As part of a **table module**, special-case single-column tables to support this, but make support for it optional.
 
+`~~~markdown` ↩︎ … `~~~`  
+`~~~(markdown)` ↩︎ … `~~~`  
 `~~~math` ↩︎ … `~~~`  
 `~~~poem` ↩︎ … `~~~`  
 `~~~art` ↩︎ … `~~~` 
