@@ -15,6 +15,7 @@ The aim of this list is to document all Markdown syntax variations (rather than 
 - [Litedown](http://s9etextformatter.readthedocs.org/Plugins/Litedown/Synopsis/)
 - [Lunamark](http://jgm.github.io/lunamark/lunamark.1.html)
 - [Markdown](http://daringfireball.net/projects/markdown/syntax)
+- [Markdown 2](http://markdown2.github.io/site/syntax/)
 - [Markdown Extra](https://michelf.ca/projects/php-markdown/extra/)
 - [Markdown-it](https://github.com/markdown-it/markdown-it#syntax-extensions)
 - [Markua](https://leanpub.com/markua/read)
