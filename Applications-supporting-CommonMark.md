@@ -3,3 +3,4 @@
 - [MarkdownPad](http://markdownpad.com), a full-featured Markdown editor for Windows desktop.
 - [TextNut](http://www.textnutwriter.com), a full-featured CommonMark editor for Mac.
 - [Pandoc](http://pandoc.org), which converts between a multitude of document formats, now supports CommonMark as both input and output.
+- [Gitit](http://gitit.net), a wiki backed by git and pandoc, supports pages in CommonMark.
