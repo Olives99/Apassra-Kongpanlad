@@ -29,6 +29,7 @@ Proposed Extensions in alphabetical order. Please make a [forum topic in the Ext
   - [Block directives discussion](http://talk.commonmark.org/t/block-directives/802)
   - [Content block discussion](http://talk.commonmark.org/t/content-block-inline-syntax/815)
   - [CSS classes on blocks discussion](http://talk.commonmark.org/t/css-classes-on-any-block/711)
+  - [Alert/warning boxes discussion](http://talk.commonmark.org/t/support-for-alert-warning-boxes/1289)
 - Document Format
   - [Discussion](http://talk.commonmark.org/t/commonmark-document-specification-for-desktop-readers/956)
 - Emojis
