@@ -2,11 +2,13 @@ This is a list of syntax extensions to standard Markdown/Commonmark found in the
 
 ## Inline Markup Extensions
 
+### Underlines
 `_italic_ __bold__ ___bold italic___ ____underlined____` 
 Some implementations go the Textile? way of differentiating semantic (strong) emphasis from presentational italic and boldface markup. Over there, the latter is achieved by doubling asterisk `*` or underscore `_`, markdown flavors instead choose the underscore, single and double, for the purely stylistic meaning and they add another layer with four underscores rendering the enclosed text with an underline, which was the reason for using the underscore in the first place. Fallback for the latter is surprisingly unsatisfactory, though, because some implementations will parse four underscores neither as double bold nor as open and immediate close bold, but something more strange.
 * [Test underline syntax](http://johnmacfarlane.net/babelmark2/?normalize=1&text=*+_italic_%0A*+__bold__%0A*+___bold+italic___%0A*+____underlined____)
 * **Recommendation:** Allow *optional* different treatment of asterisk `*` (semantic) and underscore `_` (presentational) when used as phrase affixes. Only then extend the presentational markup to underlines, using 4 underscores on each side. Also, define the meaning and parsing of more than 3 asterisks or underscores everywhere.
 
+### Superscript
 `^superscript^`  
 `^^superscript^^`  
 `^(superscript)  ^s` 
@@ -14,6 +16,7 @@ Superscript text, i.e. positioned above the baseline and usually smaller, can be
 * [Test superscript syntax](http://johnmacfarlane.net/babelmark2/?normalize=1&text=*+text%5Eindex%5E%0A*+text%5E%5Eindex%5E%5E%0A*+text%5E(index)%0A*+text%5Ei)
 * **Recommendation:** Standardize single circumflex on both sides as part of extended core.
 
+### Subscript
 `~subscript~`  
 `~~subscript~~`  
 `~(subscript)  ~s`  
@@ -22,6 +25,7 @@ Much like superscript, subscript indices etc. may be semantic. TeX and some othe
 * [Test subscript syntax](http://johnmacfarlane.net/babelmark2/?normalize=1&text=*+text~index~%0A*+text~~index~~%0A*+text~(index)%0A*+text~i%0A*+text_(index)%0A*+text_i)
 * **Recommendation:** Standardize single tilde on both sides as part of extended core.
 
+### Editorial
 `{-- removed content --}`  
 `{~~removed content~>ins~~}`  
 `{++ added content ++}`  
@@ -37,18 +41,21 @@ One implementation that does not mark up additions and removals has a different 
 * [Test editorial syntax](http://johnmacfarlane.net/babelmark2/?normalize=1&text=%7B--+removed+content+--%7D+with+%7B%2B%2B+added+content+%2B%2B%7D+or+%7B~~+original+~%3E+changed+~~%7D+and+%7B%3D%3D+highlighted+%3D%3D%7D+CriticMarkup.%0A%0A%7B--removed+content--%7D+with+%7B%2B%2Badded+content%2B%2B%7D+or+%7B~~original~%3Echanged~~%7D+and+%7B%3D%3Dhighlighted%3D%3D%7D+CriticMarkup+without+spaces.%0A%0A~~removed+content~~+or+--removed+content--+with+%2B%2Badded+content%2B%2B+and+%3D%3Dhighlighted%3D%3D+or+%3F%3F%3Fhighlighted%3F%3F%3F+markdown.)
 * **Recommendation:** Standardize an optional extension for collaboration, using double affixes (tilde `~~`, plus `++` and equals `==`) without curly braces.
 
+### Font size
 `--small--`  
 `++big++`  A single flavor uses different semantics for double plus and minus affixes, namely font size changes.
 * [Test font size syntax](http://johnmacfarlane.net/babelmark2/?normalize=1&text=%7B--small+text--+%2B%2Bbig+text%2B%2B)
 * **Recommendation:** Ignore. Although `<small>` is in HTML5 for less important text, mere font size changes should be handled by stylesheets.
 
+### Quotation
 `"short quote"`  
 `""cited title""` 
 `"""cited title"""` 
 Inline quotations and cites of titles, names or terms are rarely considered for extensions, but if so they are marked up with quotation marks. Usually, double-quote affixes ar replaced by “curly” quotation marks by (integrated) typographic preprocessors, but it’s just as intuitive to use HTML `<q>` instead. Cited instances are surrounded by either doubled or tripled marks.
-* [Test quote syntax](http://johnmacfarlane.net/babelmark2/?normalize=1&text=a+%22short+quote%22+with+%22%22cited+title%22%22+or+%22%22%22cited+title%22%22%22)
+* [Test quotation syntax](http://johnmacfarlane.net/babelmark2/?normalize=1&text=a+%22short+quote%22+with+%22%22cited+title%22%22+or+%22%22%22cited+title%22%22%22)
 * **Recommendation:** Standardize an option extension with double double quotes `""` for quotations and triple double quotes `"""` for citations. Single double quotes `"` may be replaced by language-dependent curly quotation marks, e.g. `“` and `”`. Alternatively double and triple angular brackets `<` and `>` could be used, mimicking guillemots.
 
+### Comment
 `>>stripped comment<<` 
 `<!--- stripped comment --->` 
 `{::COMMENT}stripped comment{:/COMMENT}` 
@@ -56,11 +63,13 @@ Some authors want to add comments to source documents that shall not appear at a
 * [Test comment syntax](http://johnmacfarlane.net/babelmark2/?normalize=1&text=*+%3C!--+HTML+comment+--%3E%0A*+%3C!---+special+HTML+comment+---%3E%0A*+%3E%3Eangular+bracket+comment%3C%3C%0A*+%7B%3A%3ACOMMENT%7Dverbose+comment%7B%3A%2FCOMMENT%7D)
 * **Recommendation:** Make it standard core behavior to pass through unaltered basic HTML comments with 2 dashes `--` on both sides, but completely remove all HTML comments with 3 or more consecutive dashes `---` on both sides. Visible, editorial comments should be part of the collaboration extension described above, using inverted double angular brackets `>>` and `<<`.
 
+### Key press
 `[Alt]+[Q]` 
 A single implementation recognizes single roman letters and English standard keyboard abbreviations inside square brackets to properly mark them up as user input.
 * [Test keyboard syntax](http://johnmacfarlane.net/babelmark2/?normalize=1&text=%5BAlt%5D%2B%5BQ%5D)
 * **Recommendation:** Ignore for now. Most people use code markup instead.
 
+### Badge
 `((badge))`  
 `!((important badge))`  
 `[[label]]`  
@@ -74,16 +83,19 @@ One flavor offers markup for inline badges and labels from the [Bootstrap] frame
   
 ## Link and Reference Markup Extensions
 
+### Direct link
 `http://example.com`
 Automatic URL detection and hyperlink generation is implemented often, but implementations differ in the details, i.e. which valid or invalid addresses are recognized and which are not. Usually, at least the colon and the double slashes are required, except for email addresses. Some implementations only auto-convert for known (and safe) protocol schemes.
 * [Test direct link syntax](http://johnmacfarlane.net/babelmark2/?normalize=1&text=*+mail%40example.com%0A*+http%3A%2F%2Fexample.com%0A*+www.example.com%0A*+foo%3A%2F%2Fbar.baz)
 * **Recommendation:** Don’t require implementations to parse text for plain URLs, but don’t disallow it either. Reference the Web Addresses specification.
 
+### Link title in parentheses
 `[myid]: http://example.com (Example site)` 
 The optional title in reference-style links follows the address, but it needs to be enclosed somehow. Standard implementations support surrounding single or double quotation marks `'`/`"`, some flavor extend this with round parenthesis. This may be relevant for future extensions that would add even more metadata to links or embedded media.
 * [Test parenthetic link title syntax](http://johnmacfarlane.net/babelmark2/?normalize=1&text=%5Breference+link%5D%5Bmyid%5D%2C+%5Binline+link%5D(http%3A%2F%2Fexample.com+(Example))%0A%0A++%5Bmyid%5D%3A+http%3A%2F%2Fexample.com+(Example))
 * **Recommendation:** Require implementations to finish reading an URL when they encounter a whitespace character. They must throw away everything that follows if they don’t know what to do with it. The first quoted or parenthesized string becomes the link title, more strings may follow with other extensions.
 
+### Shortcut link
 `[mnemonic target][]`  
 `[mnemonic target]`  
 `[[mnemonic target]]`  
@@ -92,6 +104,7 @@ Shortcut or implicit links – where the address or identifier can be derived fr
 * [Test shortcut/implicit link syntax](http://johnmacfarlane.net/babelmark2/?normalize=1&text=%5Bempty+ID%5D%5B%5D%2C+%5Bshortcut%5D%2C+%5B%5Bwiki-style%5D%5D%2C+%5B%5Bwiki-style%7Ctext%5D%5D%0A%0A%5Bempty+ID+ref%5D%5B%5D%2C+%5Bshortcut+ref%5D%2C+%5B%5Bwiki-style+ref%5D%5D%2C+%5B%5Bwiki-style+ref%7Ctext%5D%5D%0A%0A%23+Empty+ID%0A%0A%23+Shortcut%0A%0A%23+Wiki-Style%0A%0A++%5Bempty+ID+ref%5D%3A+http%3A%2F%2Fexample.com%2Femtpyid%0A++%5Bshortcut+ref%5D%3A+http%3A%2F%2Fexample.com%2Fshortcut%0A++%5Bwiki-style+ref%5D%3A+http%3A%2F%2Fexample.com%2Fwiki%0A)
 * **Recommendation:** Require support for the empty trailing square bracket notation in the core. As part of a highly recommended smart links module, standardize single bracket syntax `[` and `]` for shortcut links and make sure the inner pair of double bracket enclosures is used, too. Do not support the pipe syntax, i.e. the pipe would be considered part of the reference.
 
+### Note
 `[^id]` ↩︎ …  
 `[^id]: note` 
 `^[note]` 
@@ -99,6 +112,7 @@ Named and anonymous footnotes or endnotes are implemented the same way everywher
 * [Test footnote syntax](http://johnmacfarlane.net/babelmark2/?normalize=1&text=named%5B%5Eid%5D+anonymous%5E%5Bnote%5D%0A%0A++%5B%5Eid%5D%3A+footnote%0A)
 * **Recommendation:** Standardize a notes module with named and anonymous notes as shown above. Suggest to implementations that they let authors differentiate notes using numeric identifiers from those using textual or mixed ones, e.g. for footnotes vs. endnotes.
 
+### Citation
 `[#id]` ↩︎ …  
 `  [#id]: citation`  
 `[@id]`  
@@ -108,6 +122,7 @@ For scientific citations, there are two approaches found in markdown flavors. Th
 * [Test citation syntax](http://johnmacfarlane.net/babelmark2/?normalize=1&text=source%5B%23hashid%5D+and+source%5Bp.+1%5D%5B%40atid%5D%2C+also+just+author+%40atid+%5Bpage+2%5D%0A%0A++%5B%23hashid%5D%3A+citation%0A++%5B%40atid%5D%3A+another)
 * **Recommendation:** As part of the **smart links module** and aligned with the **notes module**, use a unified syntax, possibly employing the at-sign `@`, to link to internal and external references.
 
+### Abbreviation
 `ACRO` … ↩︎  
 `  *[ACRO]: expansion` 
 For abbreviations and acronyms, possibly general technical terms, too, there is a convention that uses reference definitions, too, but finds inline uses automatically. Another difference is that the marker, an asterisk `*`, goes in front of the square brackets in the reference line, which probably was intended to improve fallback, because the abbreviation “glossary” might be rendered as a bullet list this way.  
@@ -116,11 +131,13 @@ Another approach reuses anonymous inline link syntax by introducing a pseudo-sch
 * [Test abbreviation syntax](http://johnmacfarlane.net/babelmark2/?normalize=1&text=ACRO+%5Babbr%5D(abbr%3Aexpansion)%0A%0A++*%5BACRO%5D%3A+expansion)
 * **Recommendation:** Handle within the **smart links module** or the module covering definition lists.
 
+### Generic attributes
 `[text](class:myclassname)`  
 `[text](id:myidentifier)` One flavor also adds pseudo-schemes for generic classes and identifiers. This should fall back nicely, except where URLs are checked deeper for validity, i.e. parsers that will only accept known protocol schemes. 
 * [Test generic classes and identifiers](http://johnmacfarlane.net/babelmark2/?normalize=1&text=%5Btext%5D(class%3Amyclassname)+%5Btext%5D(id%3Amyidentifier))
 * **Recommendation:** Leave for later as another option for extendability.
 
+### Image size
 `![alt](example.img =640x480)`  
 `![alt](example.img "image title" =640x480)`  
 `![alt](example.img =640x480 "image title")`
@@ -128,6 +145,7 @@ Optional image size may be supplied in some variants after – or before? docume
 * [Test image size syntax](http://johnmacfarlane.net/babelmark2/?normalize=1&text=*+!%5BVGA%5D(first.png+%3D640x480)%0A*+!%5BSVGA%5D(second.png+%22800+×+600+pixels%22+%3D800x600)%0A*+!%5BDVGA%5D(third.png+%3D960x640+%22960+×+640+pixels%22)%0A*+!%5BXGA%5D%5Bxga%5D%0A*+!%5BXGA%2B%5D%5Bxgaplus%5D%0A*+!%5BSXGA%5D%5Bsxga%5D%0A%0A++%5Bxga%5D%3A+fourth.png+%3D1024x768%0A++%5Bxgaplus%5D%3A+fifth.png+%221152+×+864+pixels%22+%3D1152x864%0A++%5Bsxga%5D%3A+sixth.png+%3D1280x1024+%221280+×+1024+pixels%22%0A)
 * **Recommendation:** Require implementations to finish reading an URL when they encounter a whitespace character. They must throw away everything that follows if they don’t know what to do with it. The first quoted or parenthesized string becomes the image title, more strings may be defined within the **inclusion links module**.
 
+### Figure
 `=== [caption]` ↩︎  
 `![](figure.img)` ↩︎  
 `===`  
@@ -136,11 +154,13 @@ Figures, i.e. floating image blocks, with caption can either be derived from sta
 * [Test figure syntax](http://johnmacfarlane.net/babelmark2/?normalize=1&text=%3D%3D%3D+%5Bcaption%5D%0A!%5B%5D(figure.png)%0A%3D%3D%3D%0A%0A%3D%3D%3D%0A!%5Bno+caption%5D(figure.png)%0A%3D%3D%3D%0A%0A!%5Bcaption%5D(figure.png+%22title%22)%0A%0A)
 * **Recommendation:** Strongly suggest that implementations should consider a paragraph containing nothing but images as a floating figure with caption.
 
+### Foreign media
 `@[youtube](crypticid)` 
 There have been various proposals on how to embed videos and other media from external services easily, but only one was found documented in an actual implementation. It just uses an at-sign `@` in place of the exclamation mark of image links. Since it does not accept full URLs as parameters, the fallback to a normal link is not helpful at all.
 * [Test embeded foreign media syntax](http://johnmacfarlane.net/babelmark2/?normalize=1&text=%40%5Byoutube%5D(oHg5SJYRHA0))
 * **Recommendation:** As part of an **inclusion links module**, select a prefix to normal links to mean embedding. This does not have to end up to be `@`.
 
+### Processing instruction
 `{toc}`  
 `[toc]`  
 `[[toc]]`  
@@ -176,12 +196,14 @@ Two related flavors intended for book publishing include a number of English nam
 * [Test processing instruction syntax](http://johnmacfarlane.net/babelmark2/?normalize=1&text=%7Btoc%7D%0A%0A%5Btoc%5D%0A%0A%5B%5Btoc%5D%5D%0A%0A%40%5Btoc%5D(heading)%0A%0A%23+Level+1%0A%0A%23%23+Level+2%0A)
 * **Recommendation:** Do not adopt, but make a note that parsers should provide the user with an option to throw away paragraphs/lines that start and end with matching curly braces. Also allow profiles to overload the semantic meaning of horizontal rules `---`, `___` and `***`. If an output format supports document outlines based upon headings (which are basically TOCs), implementations should aid their generation.
 
+### Transclusion
 `<<[transclude](file.ext)`  
 `<<(file.ext)`  
 `{{file.ext}}` Transclusion of external files is helpful for larger projects and with source code. Few flavors support it, though, and syntax differs. One uses embedded link syntax with double less-than `<` instead of the exclamation mark, another employs MediaWiki template syntax with double curly braces.
 * [Test transclusion syntax](http://johnmacfarlane.net/babelmark2/?normalize=1&text=%3C%3C%5Btransclude%5D(%2Fetc%2Fpasswd)%0A%0A%3C%3C(%2Fetc%2Fpasswd)%0A%0A%7B%7B%2Fetc%2Fpasswd%7D%7D%0A)
 * **Recommendation:** As part of an **inclusion links module**, select a prefix to normal links to mean transclusion. This does not have to end up to be `<<`.
 
+### Generated image
 `[-[ QR code ]-]` 
 A single implementation offers the exotic possibility to generate quick-response codes inline.
 * [Test QR code syntax](http://johnmacfarlane.net/babelmark2/?normalize=1&text=%5B-%5B+http%3A%2F%2Fexample.com%2Fqr+%5D-%5D)
@@ -189,6 +211,7 @@ A single implementation offers the exotic possibility to generate quick-response
 
 ## Prefix-only and Symbol Extensions
 
+### Mention and tag
 `@username`  
 `#tag`  
 `!request`  
@@ -198,6 +221,7 @@ Twitter-like hash-tags and username mentions are encountered frequently in comme
 * [Test mentions and tag syntax](http://johnmacfarlane.net/babelmark2/?normalize=1&text=a+%40username+or+%40citekey+with+a+%23tag+or+%23issue+or+%23bug+and+also+a+!request+and+%24snippet+and+~label)
 * **Recommendation:** Standardize, as part of an optional **smart links module**, the at `@` and hash `#` affixes with suffixes being optional. Make the target either explicit with a reference line or implicit, hence site-specific and user-defined. Suggest to implementations that authors may want different behavior for numeric identifiers (tag vs. bug).
 
+### Symbol
 `:emoji:`  
 `:-) ;) )-: <3 (!)` … 
 Western-style image or text emoticons (and symbols) use mini character art, where some cases could be ambiguous which makes a curated collection required. 
@@ -214,6 +238,7 @@ TeX-style character macros are usually only supported inside a respective math m
 
 ## List Extensions
 
+### Definition list
 `term` ↩︎ 
 `:   definition`  
 `term` ↩︎ 
@@ -224,6 +249,7 @@ Glossaries and other applications of definition lists seem popular, but there ar
 * [Test definition list syntax](http://johnmacfarlane.net/babelmark2/?normalize=1&text=colon+term%0A%3A+++definition%0A%0A----%0A%0Atilde+term%0A++~+definition%0A%0A----%0A%0A%3Dequals+term%3D%0A++++definition)
 * **Recommendation:** There absolutely should be support, in either a **lists module** or a **scientific writing module** or the **table module**, for lists with keys instead of or in addition to bullets, but there is no recommendation yet for a definite syntax.
 
+### Enumerated list
 `2. item with start value`   
 `4. item with fix value`  
 `A) upper alpha`  
@@ -237,6 +263,7 @@ In enumerated lists, various flavors honor the first numerator value as a start 
 * [Test automatically numbered list syntax](http://johnmacfarlane.net/babelmark2/?normalize=1&text=%23%29+automatic+number%0A%0A____%0A%0A%23.+again%0A)
 * **Recommendation:** Only standardize support for decimal, alphabetic and automatic numbering, but not roman numerals. Alphabetic counters may be divided into upper and lower case. The spec should reference CSS Counter Styles for details (e.g. aa, ab, ac vs. aa, bb, cc). Auto-enumeration should also be part of the core, but – depending on backwards compatibility – may be achieved by leaving out the digit or letter completely instead of replacing it by the number sign `#`.
 
+### Bullet list
 `+ bullet list item`  
 `- [ ] to do: open task list item`  
 `- [X] done: closed task list item` 
@@ -248,6 +275,7 @@ Besides dash `-` and asterisk `*`, the plus sign can be used in many flavors for
 
 ## Paragraph and Block Extensions
 
+### Paragraph
 `>! spoiler`  
 `-> center <-` 
 `C> center`  
@@ -269,6 +297,7 @@ Some flavors add predefined paragraph types and they overload blockquote syntax 
 * [Test paragraph type syntax](http://johnmacfarlane.net/babelmark2/?normalize=1&text=%3E!+spoiler%0A%0A-%3E+center+%3C-%0A%0AC%3E+center%0A)
 * **Recommendation:** This may be handled by the **info string module**, but no final recommendation is given here.
 
+### Blockquote
 `> (http://example.com/source) quote` 
 One flavor adds the possibility to add a URL reference to block quotations. It is put in parentheses directly after the first line prefix `>`.
 * [Test sourced blockquote syntax](http://johnmacfarlane.net/babelmark2/?normalize=1&text=%3E+%28http%3A%2F%2Fexample.com%2Fsource%29+quote)
@@ -282,6 +311,7 @@ A single implementation that is much inspired by [Bootstrap](http://getbootstrap
 * [Test Bootstrap syntax](http://johnmacfarlane.net/babelmark2/?normalize=1&text=%23%23%23%0AJumbotron%0A---%0A%0AHero+unit%0A%23%23%23%0A)
 * **Recommendation:** There may be a need for a header syntax which could use fences, but no exact recommendation is given yet.
 
+### Class
 `> %class%` ↩︎ 
 `> prefixed block`  
 `::: class` ↩︎
@@ -295,17 +325,20 @@ Generic blocks of text with author-defined classes allow much freedom. There is 
 
 ## Scientific and Other Extensions
 
+### Example
 `(@) anonymous numbered example`  
 `(@id) named numbered example` 
 Some texts, e.g. linguistic articles, use paragraph-like examples that are numbered consecutively throughout the whole document; they are reference by number within the surrounding text frequently. One flavor adds list-like syntax for this, with an at-sign (inside parentheses) which may be followed by an identifier. References are made with this, too, which aligns nicely with the respective citation syntax.
 * [Test numbered examples syntax](http://johnmacfarlane.net/babelmark2/?normalize=1&text=%28%40xmp%29+named+example%0A%0AIntermission%0A%0A%28%40%29+anonymous+example+referencing+%40xmp%0A)
 * **Recommendation:** As part of the **smart links module**, adopt a method to assign automatic and arbitrary identifiers to blocks so they can be referenced, and also specify a syntactically related way to reference these of course – this may employ the at-sign `@`. As part of a **list module**, make the counter of certain enumerated lists continuous throughout the document, a pair of parentheses `()` instead of just a closing one `)` seems like a reasonable indicator for that.
 
+### Line block
 `| line-based text` 
 Some kinds and pieces of text have meaningful linebreaks and may also use semantic indentation, e.g. poems and postal addresses. One implementation uses the pipe `|` line prefix for these, although that may be interpreted as single-column table in other flavors.
 * [Test pre-wrap block syntax](http://johnmacfarlane.net/babelmark2/?normalize=1&text=%7C+a+poem++or++an+address%0A%7C+that+is+what+this+test%0A%7C++++++++++++++will+test%0A)
 * **Recommendation:** As part of a **table module**, special-case single-column tables to support this, but make support for it optional.
 
+### Fences
 `~~~markdown` ↩︎ … `~~~`  
 `~~~(markdown)` ↩︎ … `~~~`  
 `~~~math` ↩︎ … `~~~`  
@@ -315,6 +348,7 @@ Fenced blocks (with three backticks `` ` `` or tildes `~`) were introduced to ma
 * [Test fenced content syntax](http://johnmacfarlane.net/babelmark2/?normalize=1&text=%60%60%60math%0Ax%5E2+%5Cto+%5Cfrac12%0A%60%60%60%0A%0A%60%60%60poem%0AOh%2C+brother%2C+where+art%0A+++++++++++++++++++art%3F%0A%60%60%60%0A%0A%60%60%60art%0A%2F%5E%5C%0A%7C_%7C+home+sweet+home%0A%60%60%60%0A)
 * **Recommendation:** Make only tilde fences optionally evaluated, i.e. backtick fences are always displayed verbatim (except for color, font and other style changes). Create an optional **info string module** that lists recognized code languages and other identifiers with expected rendering.
 
+### Math
 `$math$` 
 `\(math\)` 
 `\\(math\\)` 
@@ -322,12 +356,13 @@ Fenced blocks (with three backticks `` ` `` or tildes `~`) were introduced to ma
 `$$math$$`  
 `\[math\]`  
 `\\[math\\]` 
-Many flavor allow math to be embedded. Since these formulas often use TeX-like code (less often ASCIImath or MathML), it is reasonable to use TeX-inspired affixes, most with leading backslash, to mark it up. Both inline and block math (equations) is usually possible.
+Many flavor allow math to be embedded. Since these formulas often use TeX-like code (less often ASCIImath or MathML), it is reasonable to use TeX-inspired affixes, most with leading backslash, to mark it up. Both inline math (e.g. variable) and block math (mostly equations) is usually possible.
 * [Test math syntax](http://johnmacfarlane.net/babelmark2/?normalize=1&text=Inline+%24m*c%5E2%24+or+%5C(m+%5Ccdot+g%C2%A0%5Ctimes+h%5C)+or+%5C%5C(%3D+E%5C%5C)+or+%7B%24%24%7D%3D+W%7B%2F%24%24%7D%0A%0A%24%24E+%3D+m*c%5E2%24%24%0A%0A%5C%5BE+%3D+m*c%5E2%5C%5D%0A%0A%5C%5C%5BE+%3D+m*c%5E2%5C%5C%5D)
 * **Recommendation:** Use fenced syntax above for math blocks, e.g. a full proof. Standardize single dollar affixes for inline math in a dedicated **math module**. As a part of this, invent numbered equation/formula syntax, e.g. `($)` line prefix.
 
 ## Metadata Extensions
 
+### Document info
 `% Markdown Extensions` ↩︎ 
 `% Christoph Päper` ↩︎ 
 `% 2015-07-03`  
@@ -343,6 +378,7 @@ One flavor even makes these metadata values accessible inside the text as templa
     (Please note that Babelmark 2 is tailored to fragments, not documents.)
 * **Recommendation:** Adopt YAML with mandatory dashed top and bottom fence `---` (for better backwards compatibility than `...`) in a **metadata module**. Only require support for a single instance at the very top of the document.
 
+### Attributes
 `{: #id .class attr="value"}`  
 `{#id .class attr="value"}` 
 Several flavors satisfy authors’ desire to assign unique identifiers, classes and arbitrary key-value attributes to blocks or even any marked-up span. They all employ curly braces for this, but differ in positions allowed. One implementation tries to be more unambiguous (though less intuitive) by requiring a colon `:` as the first character inside the braces. Identifers are prefixed with a hash mark `#`, class names with a period `.` – just like in CSS selectors. There usually is an equals sign `=`, not a colon, between key and value, the latter may be required to be put in quote marks, at least if cobtaining whitespace or equal signs. The order inside the braces is usually keft to the author’s taste, although id-classes-attributes seems most common and logical.
