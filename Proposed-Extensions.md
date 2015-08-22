@@ -34,6 +34,8 @@ Proposed Extensions in alphabetical order. Please make a [forum topic in the Ext
   - [Discussion](http://talk.commonmark.org/t/commonmark-document-specification-for-desktop-readers/956)
 - Emojis
   - [Discussion](http://talk.commonmark.org/t/the-inevitable-markdownextra-topic/42)
+- Figures
+  - [Image tag should expand to figure when used with title discussion](http://talk.commonmark.org/t/image-tag-should-expand-to-figure-when-used-with-title/265)
 - Forms
   - [Multiple Choice Quizzes Discussion](http://talk.commonmark.org/t/multiple-choice-quizzes-in-commonmark/1214)
   - [Form Inputs discussion](http://talk.commonmark.org/t/introducing-markdown-extensions-for-form-input/432)
