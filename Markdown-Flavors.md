@@ -28,6 +28,7 @@ The aim of this list is to document all Markdown syntax variations (rather than 
 - [Redcarpet](https://github.com/vmg/redcarpet)
 - [Remarkable](https://github.com/jonschlinkert/remarkable#syntax-extensions)
 - [Rhythmus](http://rhythmus.be/building-a-magazine/#extending-markdown)
+- [Scholarly Markdown](http://scholarlymarkdown.com/Scholarly-Markdown-Guide.html)
 - [Showdown](https://github.com/showdownjs/showdown/wiki/Known-Differences-in-Output)
 - [StackOverflow's Markdown](http://stackoverflow.com/editing-help)
 - [Taiga Markdown](https://taiga.io/support/taiga-markdown-syntax/)
