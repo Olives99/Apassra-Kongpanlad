@@ -115,10 +115,11 @@ Named and anonymous footnotes or endnotes are implemented the same way everywher
 ### Citation
 `[#id]` ↩︎ …  
 `  [#id]: citation`  
+`(#id)`  
 `[@id]`  
 `[pages etc.][@id]`  
 `@id [pages etc.]`
-For scientific citations, there are two approaches found in markdown flavors. The first works just like reference footnotes, except that it uses a hash character `#` as identifer prefix. The citation is found verbatim in the document instead of the web address (URL). The second approach uses the at-sign `@` instead and relies on an external biography database. The latter one also supports location/page info in a very basic way.
+For scientific citations, there are two approaches found in markdown flavors. The first works just like reference footnotes, except that it uses a hash character `#` as identifer prefix. The citation is found verbatim in the document instead of the web address (URL). The second approach uses the at-sign `@` instead and relies on an external biography database. The latter one also supports location/page info in a very basic way. For floats like tables and figures, there may be a difference between using square brackets and round parentheses in that one results in just a linked number, the other includes the number formatting as found in its target, e.g. enclosing parentheses.
 * [Test citation syntax](http://johnmacfarlane.net/babelmark2/?normalize=1&text=source%5B%23hashid%5D+and+source%5Bp.+1%5D%5B%40atid%5D%2C+also+just+author+%40atid+%5Bpage+2%5D%0A%0A++%5B%23hashid%5D%3A+citation%0A++%5B%40atid%5D%3A+another)
 * **Recommendation:** As part of the **smart links module** and aligned with the **notes module**, use a unified syntax, possibly employing the at-sign `@`, to link to internal and external references.
 
@@ -146,13 +147,17 @@ Optional image size may be supplied in some variants after – or before? docume
 * **Recommendation:** Require implementations to finish reading an URL when they encounter a whitespace character. They must throw away everything that follows if they don’t know what to do with it. The first quoted or parenthesized string becomes the image title, more strings may be defined within the **inclusion links module**.
 
 ### Figure
+↩︎↩︎ `![caption](figure.img)` ↩︎↩︎  
+`![](figure.img)` ↩︎  
+`: caption`
 `=== [caption]` ↩︎  
 `![](figure.img)` ↩︎  
 `===`  
-↩︎↩︎ `![caption](figure.img)` ↩︎↩︎
-Figures, i.e. floating image blocks, with caption can either be derived from standard paragraphs, that contain nothing but a picture link, or with a special fenced block that also contains the normal link. The caption can either be taken from existing `alt` and `title` or it is found as an attribute to the opening fence. Equals signs as fences are problematic, though, ecause they certainly will be taken as heading underlines somewhere.
+`#Figure: caption` ↩︎  
+`![](figure.img)` 
+Figures, i.e. floating image blocks, with caption can either be derived from standard paragraphs, that contain nothing but a picture link, or are made with a special fenced block that also contains the normal link. The caption can be taken from existing `alt` and `title` or it is found either as an attribute to the opening fence or in another line starting with a colon (and an optional label like `Caption: ` or `Figure: `). Equals signs as fences are problematic, though, because they certainly will be taken as heading underlines somewhere. Another flavor uses headings that start with an English keyword followed by a colon.
 * [Test figure syntax](http://johnmacfarlane.net/babelmark2/?normalize=1&text=%3D%3D%3D+%5Bcaption%5D%0A!%5B%5D(figure.png)%0A%3D%3D%3D%0A%0A%3D%3D%3D%0A!%5Bno+caption%5D(figure.png)%0A%3D%3D%3D%0A%0A!%5Bcaption%5D(figure.png+%22title%22)%0A%0A)
-* **Recommendation:** Strongly suggest that implementations should consider a paragraph containing nothing but images as a floating figure with caption.
+* **Recommendation:** Strongly suggest that implementations should consider a paragraph containing nothing but images as a floating figure with caption. Explicit captions prefixed by a colon are also worth considering, the optional labels being turned into classes for styling in HTML output. 
 
 ### Foreign media
 `@[youtube](crypticid)` 
@@ -341,6 +346,7 @@ Some kinds and pieces of text have meaningful linebreaks and may also use semant
 ### Fences
 `~~~markdown` ↩︎ … `~~~`  
 `~~~(markdown)` ↩︎ … `~~~`  
+`~~~.markdown` ↩︎ … `~~~`  
 `~~~math` ↩︎ … `~~~`  
 `~~~poem` ↩︎ … `~~~`  
 `~~~art` ↩︎ … `~~~` 
@@ -349,16 +355,17 @@ Fenced blocks (with three backticks `` ` `` or tildes `~`) were introduced to ma
 * **Recommendation:** Make only tilde fences optionally evaluated, i.e. backtick fences are always displayed verbatim (except for color, font and other style changes). Create an optional **info string module** that lists recognized code languages and other identifiers with expected rendering.
 
 ### Math
-`$math$` 
+`$math$`  
 `\(math\)` 
 `\\(math\\)` 
-`{$$}math{/$$}`  
+`{$$}math{/$$}` 
 `$$math$$`  
-`\[math\]`  
-`\\[math\\]` 
-Many flavor allow math to be embedded. Since these formulas often use TeX-like code (less often ASCIImath or MathML), it is reasonable to use TeX-inspired affixes, most with leading backslash, to mark it up. Both inline math (e.g. variable) and block math (mostly equations) is usually possible.
+`\[math\]` 
+`\\[math\\]`  
+&#x60;&#x60;`math`&#x60;&#x60;  
+Many flavors allow math to be embedded. Since these formulas often use TeX-like code (less often ASCIImath or MathML), it is reasonable to use TeX-inspired affixes, most with leading backslash, to mark it up. One flavor, however, chooses double back-ticks as affixes for better backwards compatibility. Both inline math (e.g. variable) and block math (mostly equations) is usually possible.
 * [Test math syntax](http://johnmacfarlane.net/babelmark2/?normalize=1&text=Inline+%24m*c%5E2%24+or+%5C(m+%5Ccdot+g%C2%A0%5Ctimes+h%5C)+or+%5C%5C(%3D+E%5C%5C)+or+%7B%24%24%7D%3D+W%7B%2F%24%24%7D%0A%0A%24%24E+%3D+m*c%5E2%24%24%0A%0A%5C%5BE+%3D+m*c%5E2%5C%5D%0A%0A%5C%5C%5BE+%3D+m*c%5E2%5C%5C%5D)
-* **Recommendation:** Use fenced syntax above for math blocks, e.g. a full proof. Standardize single dollar affixes for inline math in a dedicated **math module**. As a part of this, invent numbered equation/formula syntax, e.g. `($)` line prefix.
+* **Recommendation:** Use fenced syntax above for math blocks, e.g. a full proof or equation. Standardize single dollar affixes for inline math in a dedicated **math module**. As a part of this, invent numbered equation/formula syntax, e.g. `($)` line prefix.
 
 ## Metadata Extensions
 
