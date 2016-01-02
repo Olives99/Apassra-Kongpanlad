@@ -36,6 +36,10 @@
 
 - [league/commonmark](http://commonmark.thephpleague.com/) - Based on the JS/C++ reference implementations
 
+### Lua
+
+- [cmark-lua](https://github.com/jgm/cmark-lua) (wraps the C library)
+
 ### Elixir
 
 - [Cmark](https://github.com/asaaki/cmark.ex)
@@ -82,4 +86,3 @@ These projects are based on earlier versions of CommonMark and are now obsolete.
 
 - [luacmark](https://github.com/jturner/luacmark)
 - [commonmark-lua](https://github.com/jgm/commonmark-lua) - luajit + FFI
-- [cmark-lua](https://github.com/jgm/cmark-lua)
