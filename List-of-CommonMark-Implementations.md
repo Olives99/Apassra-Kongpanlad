@@ -39,6 +39,7 @@
 ### Lua
 
 - [cmark-lua](https://github.com/jgm/cmark-lua) (wraps the C library) - [`luarocks install cmark`](https://luarocks.org/modules/jgm/cmark)
+- [lcmark](https://github.com/jgm/lcmark) (higher level interface around cmark, adding YAML metadata, filters, and templates)
 
 ### Elixir
 
