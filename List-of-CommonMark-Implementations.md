@@ -36,6 +36,10 @@
 
 - [league/commonmark](http://commonmark.thephpleague.com/) - Based on the JS/C++ reference implementations
 
+### Python
+
+- [CommonMark-py](https://github.com/rtfd/CommonMark-py) - Pure Python implementation based on commonmark.js
+
 ### Lua
 
 - [cmark-lua](https://github.com/jgm/cmark-lua) (wraps the C library) - [`luarocks install cmark`](https://luarocks.org/modules/jgm/cmark)
@@ -68,7 +72,6 @@ These projects are based on earlier versions of CommonMark and are now obsolete.
 
 ### Python
 
-- [CommonMark-py](https://github.com/rolandshoemaker/CommonMark-py)
 - [pycommonmark](https://github.com/bpabel/pycommonmark)
 
 ### Idris
