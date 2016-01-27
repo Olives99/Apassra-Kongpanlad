@@ -30,6 +30,8 @@ Proposed Extensions in alphabetical order. Please make a [forum topic in the Ext
   - [Content block discussion](http://talk.commonmark.org/t/content-block-inline-syntax/815)
   - [CSS classes on blocks discussion](http://talk.commonmark.org/t/css-classes-on-any-block/711)
   - [Alert/warning boxes discussion](http://talk.commonmark.org/t/support-for-alert-warning-boxes/1289)
+- Disabling Syntax Parsing
+  - [Discussion](http://talk.commonmark.org/t/is-markdown-0-only-used-by-kramdown/1995)
 - Document Format
   - [Discussion](http://talk.commonmark.org/t/commonmark-document-specification-for-desktop-readers/956)
 - Emojis
