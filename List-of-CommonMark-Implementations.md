@@ -70,6 +70,10 @@
 
   - [SwiftMark](http://pyroh.github.io/docs/SwiftMark/index.html)
 
+### TypeScript
+
+  - [DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped) (JS library bindings, [NuGet](https://www.nuget.org/packages/commonmark.TypeScript.DefinitelyTyped))
+
 ## Not recently maintained
 
 These projects are based on earlier versions of CommonMark and are now obsolete.  But they might be good starting points for new work.
