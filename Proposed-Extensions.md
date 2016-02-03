@@ -14,12 +14,12 @@ Proposed Extensions in alphabetical order. Please make a [forum topic in the Ext
   - [Consistent Attribute syntax discussion](http://talk.commonmark.org/t/consistent-attribute-syntax/272)
 - Check Boxes
   - [Discussion](http://talk.commonmark.org/t/support-for-gfm-like-checkboxes/2007)
-- Creative Works
-  - [Discussion](http://talk.commonmark.org/t/referencing-creative-works-with-cite/892)
 - Code Blocks
   - [Filenames and line numbers discussion](http://talk.commonmark.org/t/code-blocks-extension-for-filenames-and-line-numbers/536)
 - Compact URLs
   - [Discussion](http://talk.commonmark.org/t/compact-uris-curies/553)
+- Creative Works
+  - [Discussion](http://talk.commonmark.org/t/referencing-creative-works-with-cite/892)
 - Description List
   - [Discussion](http://talk.commonmark.org/t/description-list/289)
   - [Automatic Key/Value Rendering discussion](http://talk.commonmark.org/t/autodetect-key-value-as-visible-metadata/863)
