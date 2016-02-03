@@ -12,6 +12,8 @@ Proposed Extensions in alphabetical order. Please make a [forum topic in the Ext
   - [Image-style syntax discussion](http://talk.commonmark.org/t/embedded-audio-and-video/441/9)
 - Attributes
   - [Consistent Attribute syntax discussion](http://talk.commonmark.org/t/consistent-attribute-syntax/272)
+- Check Boxes
+  - [Discussion](http://talk.commonmark.org/t/support-for-gfm-like-checkboxes/2007)
 - Creative Works
   - [Discussion](http://talk.commonmark.org/t/referencing-creative-works-with-cite/892)
 - Code Blocks
