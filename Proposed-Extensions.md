@@ -46,7 +46,8 @@ Proposed Extensions in alphabetical order. Please make a [forum topic in the Ext
   - [Multiple Choice Quizzes Discussion](http://talk.commonmark.org/t/multiple-choice-quizzes-in-commonmark/1214)
   - [Form Inputs discussion](http://talk.commonmark.org/t/introducing-markdown-extensions-for-form-input/432)
 - Footnotes
-  - [Discussion](http://talk.commonmark.org/t/how-should-footnotes-behave/1106)
+  - [How should footnotes behave? discussion](http://talk.commonmark.org/t/how-should-footnotes-behave/1106)
+  - [Footnotes and indentation discussion](http://talk.commonmark.org/t/footnotes-and-indentation/2030)
 - Highlighted Text
   - [Discussion](http://talk.commonmark.org/t/highlighting-text-with-the-mark-element/840)
 - Images
