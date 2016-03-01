@@ -85,6 +85,7 @@ Proposed Extensions in alphabetical order. Please make a [forum topic in the Ext
 - Subscript and Supscipt
   - [Discussion](http://talk.commonmark.org/t/why-there-is-no-syntax-for-subscript-and-supscript/586)
 - Tables
-  - [Discussion](http://talk.commonmark.org/t/tables-in-pure-markdown/81)
+  - [Tables in pure Markdown discussion](http://talk.commonmark.org/t/tables-in-pure-markdown/81)
+  - [Parsing strategy for tables discussion](http://talk.commonmark.org/t/parsing-strategy-for-tables/2027)
 - Task Lists
   - [Discussion](http://talk.commonmark.org/t/task-lists-in-standard-markdown/41)
