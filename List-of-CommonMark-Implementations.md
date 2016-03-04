@@ -69,7 +69,7 @@
 
 ### Swift
 
-  - [SwiftMark](http://pyroh.github.io/docs/SwiftMark/index.html)
+  - [SwiftMark](http://pyroh.github.io/docs/SwiftMark/index.html) (wraps the C library)
 
 ### TypeScript
 
