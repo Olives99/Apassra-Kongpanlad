@@ -70,6 +70,8 @@
 ### Swift
 
   - [SwiftMark](http://pyroh.github.io/docs/SwiftMark/index.html) (wraps the C library)
+  - [SmarkDown.swft](https://github.com/SwiftStudies/SmarkDown) - Pure Swift
+
 
 ### TypeScript
 
@@ -94,7 +96,6 @@ These projects are based on earlier versions of CommonMark and are now obsolete.
 ### Swift
 
 - [CommonMark.swift](https://github.com/bnickel/CommonMark.swift)
-- [SmarkDown.swft](https://github.com/SwiftStudies/SmarkDown) - Pure Swift
 
 ### Lua
 
