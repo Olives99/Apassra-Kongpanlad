@@ -24,6 +24,8 @@ Proposed Extensions in alphabetical order. Please make a [forum topic in the Ext
 - Description List
   - [Discussion](http://talk.commonmark.org/t/description-list/289)
   - [Automatic Key/Value Rendering discussion](http://talk.commonmark.org/t/autodetect-key-value-as-visible-metadata/863)
+- Descending Ordered Lists
+  - [Discussion](http://talk.commonmark.org/t/descending-ordered-lists/1068)
 - Details
   - [Discussion](http://talk.commonmark.org/t/html-details-tag/759)
 - Directives 
