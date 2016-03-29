@@ -5,7 +5,6 @@
 - [commonmark.js](https://github.com/jgm/commonmark.js) (reference
   implementation) - [`npm install commonmark`](https://www.npmjs.org/package/commonmark)
 - [markdown-it](https://github.com/markdown-it/markdown-it) (high speed pluggable implementation) - [`npm install markdown-it`](https://www.npmjs.org/package/markdown-it)
-- [html2commonmark](https://github.com/nicojs/html2commonmark) (find your way back from html to markdown using the commonmark spec) [`npm install html2commonmark`] (https://www.npmjs.com/package/html2commonmark)
 
 ### C
 
