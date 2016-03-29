@@ -72,7 +72,7 @@ Proposed Extensions in alphabetical order. Please make a [forum topic in the Ext
 - Mentions
   - [@Mentions discussion](http://talk.commonmark.org/t/a-mentions-plugin/837)
 - Meta Data
-  - [Document Titles discussion](http://talk.commonmark.org/t/internal-references-anchors-with-multiple-types/530)
+  - [Document Titles discussion](http://talk.commonmark.org/t/document-titles/649)
   - [Jekyll-style do not parse section discussion](http://talk.commonmark.org/t/jekyll-style-do-not-show-or-parse-sections/918)
   - [Metadata in documents discussion](http://talk.commonmark.org/t/metadata-in-documents/721)
 - Reviewing Markup
