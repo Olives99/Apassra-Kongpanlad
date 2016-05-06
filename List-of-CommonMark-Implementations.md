@@ -15,7 +15,7 @@
 
 ### Elixir
 
-- [Cmark](https://github.com/asaaki/cmark.ex)
+- [Cmark](https://github.com/asaaki/cmark.ex) (wraps the C library)
 
 ### Go
 
