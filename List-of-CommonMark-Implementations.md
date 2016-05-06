@@ -1,11 +1,5 @@
 ## Recently maintained projects
 
-### JavaScript
-
-- [commonmark.js](https://github.com/jgm/commonmark.js) (reference
-  implementation) - [`npm install commonmark`](https://www.npmjs.org/package/commonmark)
-- [markdown-it](https://github.com/markdown-it/markdown-it) (high speed pluggable implementation) - [`npm install markdown-it`](https://www.npmjs.org/package/markdown-it)
-
 ### C
 
 - [cmark](https://github.com/jgm/CommonMark) (reference
@@ -14,6 +8,14 @@
 ### C# ###
 
 - [CommonMark.NET](https://github.com/Knagis/CommonMark.NET) - available on [NuGet](https://www.nuget.org/packages/CommonMark.NET/)
+
+### Dart
+
+- [md_proc](https://github.com/dikmax/md_proc/commits/master)
+
+### Elixir
+
+- [Cmark](https://github.com/asaaki/cmark.ex)
 
 ### Go
 
@@ -28,6 +30,17 @@
 
 - [commonmark-java](https://github.com/atlassian/commonmark-java) - pure Java
 
+### JavaScript
+
+- [commonmark.js](https://github.com/jgm/commonmark.js) (reference
+  implementation) - [`npm install commonmark`](https://www.npmjs.org/package/commonmark)
+- [markdown-it](https://github.com/markdown-it/markdown-it) (high speed pluggable implementation) - [`npm install markdown-it`](https://www.npmjs.org/package/markdown-it)
+
+### Lua
+
+- [cmark-lua](https://github.com/jgm/cmark-lua) (wraps the C library) - [`luarocks install cmark`](https://luarocks.org/modules/jgm/cmark)
+- [lcmark](https://github.com/jgm/lcmark) (higher level interface around cmark, adding YAML metadata, filters, and templates)
+
 ### Perl
 
 - [CommonMark](https://metacpan.org/release/CommonMark) (wraps the C library)
@@ -39,19 +52,6 @@
 ### Python
 
 - [CommonMark-py](https://github.com/rtfd/CommonMark-py) - Pure Python implementation based on commonmark.js
-
-### Lua
-
-- [cmark-lua](https://github.com/jgm/cmark-lua) (wraps the C library) - [`luarocks install cmark`](https://luarocks.org/modules/jgm/cmark)
-- [lcmark](https://github.com/jgm/lcmark) (higher level interface around cmark, adding YAML metadata, filters, and templates)
-
-### Elixir
-
-- [Cmark](https://github.com/asaaki/cmark.ex)
-
-### Dart
-
-- [md_proc](https://github.com/dikmax/md_proc/commits/master)
 
 ### Ruby/RubyMotion
 
@@ -71,18 +71,14 @@
   - [SwiftMark](http://pyroh.github.io/docs/SwiftMark/index.html) (wraps the C library)
   - [SmarkDown.swft](https://github.com/SwiftStudies/SmarkDown) - Pure Swift
 
-
 ### TypeScript
 
   - [DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped) (JS library bindings, [NuGet](https://www.nuget.org/packages/commonmark.TypeScript.DefinitelyTyped))
 
+
 ## Not recently maintained
 
 These projects are based on earlier versions of CommonMark and are now obsolete.  But they might be good starting points for new work.
-
-### Python
-
-- [pycommonmark](https://github.com/bpabel/pycommonmark)
 
 ### Idris
 
@@ -92,11 +88,15 @@ These projects are based on earlier versions of CommonMark and are now obsolete.
 
 - [comark](https://github.com/ConstNW/comark)
 
-### Swift
-
-- [CommonMark.swift](https://github.com/bnickel/CommonMark.swift)
-
 ### Lua
 
 - [luacmark](https://github.com/jturner/luacmark)
 - [commonmark-lua](https://github.com/jgm/commonmark-lua) - luajit + FFI
+
+### Python
+
+- [pycommonmark](https://github.com/bpabel/pycommonmark)
+
+### Swift
+
+- [CommonMark.swift](https://github.com/bnickel/CommonMark.swift)
