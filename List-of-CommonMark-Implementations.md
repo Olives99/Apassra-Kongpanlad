@@ -2,7 +2,7 @@
 
 ### C
 
-- [cmark](https://github.com/jgm/CommonMark) (reference
+- [cmark](https://github.com/jgm/cmark) (reference
   implementation, high performance executable and library)
 
 ### C# ###
