@@ -1,5 +1,6 @@
 - [Markdown Edit](http://mike-ward.net/markdownedit/), a CommonMark editor for Windows desktop
 - [Markdown Editor](https://chrome.google.com/webstore/detail/markdown-editor/gjolennkaebiimakmoaadofoihhldjhb), A Chrome app. Supported on Windows, Linux, Mac and ChromeOS. Works offline.
+- [Markdown Editor for Visual Studio](https://visualstudiogallery.msdn.microsoft.com/ab39a092-1343-46e2-b0f1-6a3f91155aa6) a CommonMark editor supporting also multiple extensions
 - [MarkdownPad](http://markdownpad.com), a full-featured Markdown editor for Windows desktop.
 - [TextNut](http://www.textnutwriter.com), a full-featured CommonMark editor for Mac.
 - [Pandoc](http://pandoc.org), which converts between a multitude of document formats, now supports CommonMark as both input and output.
