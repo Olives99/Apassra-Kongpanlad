@@ -34,5 +34,6 @@ The aim of this list is to document all Markdown syntax variations (rather than 
 - [Taiga Markdown](https://taiga.io/support/taiga-markdown-syntax/)
 - [Trello's Markdown](http://help.trello.com/article/821-using-markdown-in-trello)
 - [vfmd](http://www.vfmd.org/vfmd-spec/syntax/)
+- [Xcode/Swift Playgrounds Markup](https://developer.apple.com/library/ios/documentation/Xcode/Reference/xcode_markup_formatting_ref/index.html#//apple_ref/doc/uid/TP40016497)
 
 Extensions to standard syntax that are described in the documentation of these flavors is collected at [[Deployed Extensions]].
