@@ -17,6 +17,8 @@ Proposed Extensions in alphabetical order. Please make a [forum topic in the Ext
   - [Discussion](http://talk.commonmark.org/t/support-for-gfm-like-checkboxes/2007)
 - Code Blocks
   - [Filenames and line numbers discussion](http://talk.commonmark.org/t/code-blocks-extension-for-filenames-and-line-numbers/536)
+- Colour
+  - [Discussion](https://talk.commonmark.org/t/markdown-colour-support/2208)
 - Compact URLs
   - [Discussion](http://talk.commonmark.org/t/compact-uris-curies/553)
 - Creative Works
