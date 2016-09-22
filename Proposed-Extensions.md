@@ -81,6 +81,7 @@ Proposed Extensions in alphabetical order. Please make a [forum topic in the Ext
   - [Jekyll-style do not parse section discussion](http://talk.commonmark.org/t/jekyll-style-do-not-show-or-parse-sections/918)
   - [Metadata in documents discussion](http://talk.commonmark.org/t/metadata-in-documents/721)
 - Reviewing Markup
+  - [Front matter best practice discussion](https://talk.commonmark.org/t/front-matter-best-practice/2235)
   - [Discussion](http://talk.commonmark.org/t/reviewing-markups/824)
 - Sections
   - [Explicit section not possible? discussion](http://talk.commonmark.org/t/explicit-section-not-possible/796)
