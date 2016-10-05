@@ -13,6 +13,7 @@ Proposed Extensions in alphabetical order. Please make a [forum topic in the Ext
 - Attributes
   - [Consistent Attribute syntax discussion](http://talk.commonmark.org/t/consistent-attribute-syntax/272)
   - [Alignment discussion](http://talk.commonmark.org/t/support-for-align-right/2042)
+  - [Links with attributes like target, class, etc discussion](https://talk.commonmark.org/t/links-with-attributes-like-target-class-etc/2246)
 - Blockquote Footer
   - [Discussion](https://talk.commonmark.org/t/syntax-for-footer/2070)
 - Checkboxes
