@@ -51,6 +51,8 @@ comment
 <span title="comment">text</span>
 ```
 
+See also [Notes section](#tooltips).
+
 Strike-through
 ------------------------------------------------------------------------
 
@@ -139,6 +141,17 @@ slidenotes
 <aside>
 <p>note</p>
 </aside>
+```
+
+inlinenotes / ruby
+
+```html5
+<ruby>
+🐮<rp> (</rp><rt>bull</rt><rp>)</rp>
+💩<rp> (</rp><rt>shit</rt><rp>)</rp>
+</ruby>
+
+<ruby>🤔💡<rp> (</rp><rt>Eureka!</rt><rp>)</rp></ruby>
 ```
 
 tooltips
