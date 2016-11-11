@@ -1,7 +1,7 @@
 - [Markdown Edit](http://markdownedit.com/), a CommonMark editor for Windows desktop
 - [Markdown Editor](https://chrome.google.com/webstore/detail/markdown-editor/gjolennkaebiimakmoaadofoihhldjhb), A Chrome app. Supported on Windows, Linux, Mac and ChromeOS. Works offline.
 - [Markdown Editor for Visual Studio](https://visualstudiogallery.msdn.microsoft.com/eaab33c3-437b-4918-8354-872dfe5d1bfe) a CommonMark editor supporting also multiple extensions
-- [Markdown Plus](http://tylingsoft.com/markdown-plus/) a Markdown editor with extra features. Its frontend is open source under MIT license and it has apps for Windows and Mac. Besides CommonMark, GitHub flavored markdown, it also supports toc, footnote, task list, emoji, Font Awesome, mathematical formula, flowchart, diagrams, Vim mode, Emacs mode and a lot more. 
+- [Markdown Plus](http://tylingsoft.com/markdown-plus/) a Markdown editor with extra features. Its frontend is open source under MIT license and it has apps for Windows and Mac. Besides CommonMark, GFM, it also supports toc, footnote, task list, emoji, Font Awesome, mathematical formula, flowchart, diagrams, Vim mode, Emacs mode and a lot more. 
 - [MarkdownPad](http://markdownpad.com), a full-featured Markdown editor for Windows desktop.
 - [TextNut](http://www.textnutwriter.com), a full-featured CommonMark editor for Mac.
 - [Pandoc](http://pandoc.org), which converts between a multitude of document formats, now supports CommonMark as both input and output.
