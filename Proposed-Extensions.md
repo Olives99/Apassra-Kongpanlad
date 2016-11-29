@@ -71,6 +71,7 @@ Proposed Extensions in alphabetical order. Please make a [forum topic in the Ext
   - [Lists with no list marker discussion](http://talk.commonmark.org/t/lists-without-a-list-indicator-character/861)
   - [Letter-ordered list discussion](http://talk.commonmark.org/t/letter-ordered-lists/173)
   - [Alternative (1) ordered list discussion](http://talk.commonmark.org/t/alternative-1-ordered-list-syntax/742)
+  - [Inline Lists discussion](https://talk.commonmark.org/t/inline-lists-a-bananas-b-apples-c-oranges/2304)
 - Macros
   - [Discussion](http://talk.commonmark.org/t/proposing-a-macro-standard-for-markdown/609)
 - Mathematics
