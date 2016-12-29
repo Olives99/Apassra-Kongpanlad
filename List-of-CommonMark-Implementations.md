@@ -4,6 +4,7 @@
 
 - [cmark](https://github.com/jgm/cmark) (reference
   implementation, high performance executable and library)
+- [MD4C](https://github.com/mity/md4c) - very fast parser implementation with minimalistic interface (in XML-parsing analogy, it is more like a SAX parser, not DOM parser)
 
 ### C# ###
 
