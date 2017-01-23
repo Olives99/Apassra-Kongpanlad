@@ -54,7 +54,8 @@
 ### Python
 
 - [CommonMark-py](https://github.com/rtfd/CommonMark-py) - Pure Python implementation based on commonmark.js
-
+- [paka.cmark](https://github.com/PavloKapyshin/paka.cmark) (wraps the cmark C
+library) - [`pip install paka.cmark`](https://pypi.python.org/pypi/paka.cmark)
 ### Ruby/RubyMotion
 
 - [CommonMarker](https://github.com/gjtorikian/commonmarker) (wraps the C library)
@@ -98,8 +99,7 @@ These projects are based on earlier versions of CommonMark and are now obsolete.
 ### Python
 
 - [pycommonmark](https://github.com/bpabel/pycommonmark)
-- [paka.cmark](https://github.com/PavloKapyshin/paka.cmark) (wraps the cmark C
-library) - [`pip install paka.cmark`](https://pypi.python.org/pypi/paka.cmark)
+
 
 ### Swift
 
