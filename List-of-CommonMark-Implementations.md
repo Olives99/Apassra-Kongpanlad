@@ -37,7 +37,7 @@
 - [commonmark.js](https://github.com/jgm/commonmark.js) (reference
   implementation) - [`npm install commonmark`](https://www.npmjs.org/package/commonmark)
 - [markdown-it](https://github.com/markdown-it/markdown-it) (high speed pluggable implementation) - [`npm install markdown-it`](https://www.npmjs.org/package/markdown-it)
-- [remarkable](https://github.com/jonschlinkert/remarkable)
+- [remarkable](https://github.com/jonschlinkert/remarkable) (configurable syntax and high speed) - [`npm install remarkable --save`]
 
 ### Lua
 
