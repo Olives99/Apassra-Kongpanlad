@@ -8,3 +8,4 @@
 - [Gitit](http://gitit.net), a wiki backed by git and pandoc, supports pages in CommonMark.
 - [ghostwriter](http://wereturtle.github.io/ghostwriter), a full-featured Windows and Linux Markdown editor with support for Pandoc and mark.
 - [Versatil Markdown](http://versatilapp.com) for macOS, a hypernotebook built around Markdown/CommonMark, with 1Password integration, HTML/CSS support, syntax highlighting, frictionless keyboard flow, smart drag-n-drop insertion, multiple themes, document aliasing, and more.
+- [Caret](https://caret.io/), a premium Markdown editor for Mac, Windows and Linux
