@@ -32,6 +32,10 @@
 
 - [commonmark-java](https://github.com/atlassian/commonmark-java) - pure Java
 
+### Scala
+
+- [cmark-scala](https://github.com/sparsetech/cmark-scala) (wraps the C library)
+
 ### JavaScript
 
 - [commonmark.js](https://github.com/jgm/commonmark.js) (reference
