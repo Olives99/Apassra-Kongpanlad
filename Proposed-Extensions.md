@@ -32,7 +32,7 @@ Proposed Extensions in alphabetical order. Please make a [forum topic in the Ext
 - Descending Ordered Lists
   - [Discussion](http://talk.commonmark.org/t/descending-ordered-lists/1068)
 - Details
-  - [Discussion](http://talk.commonmark.org/t/html-details-tag/759)
+  - [Directive Discussion](http://talk.commonmark.org/t/html-details-tag/759)
 - Directives 
   - [Generic directives/plugins syntax discussion](http://talk.commonmark.org/t/generic-directives-plugins-syntax/444)
   - [Spoiler tag syntax discussion](http://talk.commonmark.org/t/what-could-a-spoiler-tag-extension-look-like/767)
