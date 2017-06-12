@@ -1,11 +1,40 @@
-- [Markdown Edit](http://markdownedit.com/), a CommonMark editor for Windows desktop
-- [Markdown Editor](https://chrome.google.com/webstore/detail/markdown-editor/gjolennkaebiimakmoaadofoihhldjhb), A Chrome app. Supported on Windows, Linux, Mac and ChromeOS. Works offline.
-- [Markdown Editor for Visual Studio](https://visualstudiogallery.msdn.microsoft.com/eaab33c3-437b-4918-8354-872dfe5d1bfe) a CommonMark editor supporting also multiple extensions
-- [Markdown Plus](http://tylingsoft.com/markdown-plus/) a Markdown editor with extra features. Its frontend is open source under MIT license and it has apps for Windows and Mac. Besides CommonMark, GFM, it also supports toc, footnote, task list, emoji, Font Awesome, mathematical formula, flowchart, diagrams, Vim mode, Emacs mode and a lot more. 
-- [MarkdownPad](http://markdownpad.com), a full-featured Markdown editor for Windows desktop.
-- [TextNut](http://www.textnutwriter.com), a full-featured CommonMark editor for Mac.
-- [Pandoc](http://pandoc.org), which converts between a multitude of document formats, now supports CommonMark as both input and output.
-- [Gitit](http://gitit.net), a wiki backed by git and pandoc, supports pages in CommonMark.
-- [ghostwriter](http://wereturtle.github.io/ghostwriter), a full-featured Windows and Linux Markdown editor with support for Pandoc and mark.
-- [Versatil Markdown](http://versatilapp.com) for macOS, a hypernotebook built around Markdown/CommonMark, with 1Password integration, HTML/CSS support, syntax highlighting, frictionless keyboard flow, smart drag-n-drop insertion, multiple themes, document aliasing, and more.
-- [Caret](https://caret.io/), a premium Markdown editor for Mac, Windows and Linux
+## CommonMark Editors
+
+**[Markdown Edit](http://markdownedit.com/)**  
+&emsp; ▸ **Windows**
+
+**[Markdown Editor](https://chrome.google.com/webstore/detail/markdown-editor/gjolennkaebiimakmoaadofoihhldjhb)**  
+&emsp; ▸ Chrome app (**Windows**, **Linux**, **Mac** and **ChromeOS**)  
+&emsp; ▸ Works offline.
+
+**[Markdown Editor for Visual Studio](https://visualstudiogallery.msdn.microsoft.com/eaab33c3-437b-4918-8354-872dfe5d1bfe)**  
+&emsp; ▸ Supports multiple extensions.
+
+**[Markdown Plus](https://tylingsoft.com/markdown-plus/)**  
+&emsp; ▸ **Windows**, **Mac**  
+&emsp; ▸ Also supports GitHub Flavored Markdown, [Markdown TOC (table of contents)](https://github.com/jonschlinkert/markdown-toc), footnote, task list, emoji, Font Awesome, mathematical formula, flowchart, diagrams, Vim mode, Emacs mode and a lot more.
+
+**[MarkdownPad](https://markdownpad.com/)**  
+&emsp; ▸ **Windows**
+
+**[TextNut](http://www.textnutwriter.com/)**  
+&emsp; ▸ **Mac**, **iOS**
+
+**[ghostwriter](https://wereturtle.github.io/ghostwriter)**  
+&emsp; ▸ **Windows**, **Linux**  
+&emsp; ▸ With support for Pandoc.
+
+**[Versatil Markdown](https://versatilapp.com/)**  
+&emsp; ▸ **Mac**  
+&emsp; ▸ A notebook built around Markdown and CommonMark, with 1Password integration, HTML/CSS support, syntax highlighting, and more.
+
+**[Caret](https://caret.io/)**  
+&emsp; ▸ **Mac**, **Windows**, **Linux**
+
+## CommonMark Misc.
+
+**[Pandoc](https://pandoc.org/)**  
+&emsp; ▸ Converts between a multitude of document formats,  supports CommonMark as both input and output.
+
+**[Gitit](https://github.com/jgm/gitit)**  
+&emsp; ▸ A wiki backed by git and pandoc, supports pages in CommonMark.
