@@ -5,6 +5,7 @@ The aim of this list is to document all Markdown syntax variations (rather than 
 - [CommonMark](http://spec.commonmark.org/)
 - [CriticMarkup](http://criticmarkup.com/spec.php)
 - [Discount](http://www.pell.portland.or.us/~orc/Code/discount/#Language.extensions)
+- [DocFX](https://dotnet.github.io/docfx/index.html)
 - [Ghost's Markdown/Haunted Markdown](https://github.com/TryGhost/Ghost/wiki/Future-of-Markdown#features)
 - [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/)
 - [GitLab Flavored Markdown](http://doc.gitlab.com/ce/markdown/markdown.html) ([with login](https://gitlab.com/help/user/markdown.md))
