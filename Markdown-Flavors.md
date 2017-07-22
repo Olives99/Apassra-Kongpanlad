@@ -32,7 +32,7 @@ The aim of this list is to document all Markdown syntax variations (rather than 
 - [Scholarly Markdown](http://scholarlymarkdown.com/Scholarly-Markdown-Guide.html)
 - [Showdown](https://github.com/showdownjs/showdown/wiki/Known-Differences-in-Output)
 - [StackOverflow's Markdown](http://stackoverflow.com/editing-help)
-- [Taiga Markdown](https://taiga.io/support/taiga-markdown-syntax/)
+- [Taiga Markdown](https://tree.taiga.io/support/misc/taiga-markdown-syntax/)
 - [Trello's Markdown](http://help.trello.com/article/821-using-markdown-in-trello)
 - [vfmd](http://www.vfmd.org/vfmd-spec/syntax/)
 - [Xcode/Swift Playgrounds Markup](https://developer.apple.com/library/ios/documentation/Xcode/Reference/xcode_markup_formatting_ref/index.html#//apple_ref/doc/uid/TP40016497)
