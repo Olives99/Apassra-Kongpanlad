@@ -24,7 +24,7 @@
 
 **[ghostwriter](https://wereturtle.github.io/ghostwriter)**  
 &emsp; ▸ **Windows**, **Linux**  
-&emsp; ▸ With support for Pandoc.
+&emsp; ▸ With support for Pandoc and cmark.
 
 **[Versatil Markdown](https://versatilapp.com/)**  
 &emsp; ▸ **Mac**  
