@@ -10,6 +10,8 @@
 **[Markdown Editor for Visual Studio](https://visualstudiogallery.msdn.microsoft.com/eaab33c3-437b-4918-8354-872dfe5d1bfe)**  
 &emsp; ▸ Supports multiple extensions.
 
+**[Visual Studio Code](https://code.visualstudio.com/docs/languages/markdown)**
+
 **[Markdown Plus](https://tylingsoft.com/markdown-plus/)**  
 &emsp; ▸ **Windows**, **Mac**  
 &emsp; ▸ Also supports GitHub Flavored Markdown, [Markdown TOC (table of contents)](https://github.com/jonschlinkert/markdown-toc), footnote, task list, emoji, Font Awesome, mathematical formula, flowchart, diagrams, Vim mode, Emacs mode and a lot more.
