@@ -18,6 +18,8 @@ Proposed Extensions in alphabetical order. Please make a [forum topic in the Ext
   - [Discussion](https://talk.commonmark.org/t/syntax-for-footer/2070)
 - Checkboxes
   - [Discussion](http://talk.commonmark.org/t/support-for-gfm-like-checkboxes/2007)
+- Comments
+  - [Discussion](https://talk.commonmark.org/t/method-for-comments-especially-multiline/208)
 - Code Blocks
   - [Filenames and line numbers discussion](http://talk.commonmark.org/t/code-blocks-extension-for-filenames-and-line-numbers/536)
 - Colour
