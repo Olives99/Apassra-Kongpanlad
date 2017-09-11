@@ -11,6 +11,10 @@
 - [CommonMark.NET](https://github.com/Knagis/CommonMark.NET) - available on [NuGet](https://www.nuget.org/packages/CommonMark.NET/)
 - [Markdig](https://github.com/lunet-io/markdig) - available on [NuGet](https://www.nuget.org/packages/Markdig/)
 
+### Crystal
+
+- [markd](https://github.com/icyleaf/markd) - written in Crystal
+
 ### Dart
 
 - [mdown](https://github.com/dikmax/mdown)
