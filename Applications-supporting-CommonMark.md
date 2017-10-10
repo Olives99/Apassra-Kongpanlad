@@ -36,6 +36,10 @@
 **[Caret](https://caret.io/)**  
 &emsp; ▸ **Mac**, **Windows**, **Linux**
 
+**[Markdown Writer FX](https://github.com/JFormDesigner/markdown-writer-fx)**  
+&emsp; ▸ **Java JAR** (**Windows**, **Linux**, **Mac**)  
+&emsp; ▸ An open source Markdown editor written in JavaFX 8.
+
 ## CommonMark Misc.
 
 **[Pandoc](https://pandoc.org/)**  
