@@ -10,9 +10,9 @@
 &emsp; ▸ **Windows**, **Linux**  
 &emsp; ▸ With support for Pandoc and cmark.
 
-**[HackMD](https://hackmd.io)**
-&emsp; ▸ **Web**, **Docker instance**
-&emsp; ▸ Supports realtime cooperative editing
+**[HackMD](https://hackmd.io)**  
+&emsp; ▸ **Web**, **Docker instance**  
+&emsp; ▸ Supports realtime cooperative editing  
 &emsp; ▸ Supports GitHub Flavored Markdown, Book Mode, Slide Mode, ToC, tasklist, codeblock syntax highlighting, LaTeX rendering, diagrams renderings, video embed and more, refer https://hackmd.io/features for all the features.
 
 **[Markdown Edit](http://markdownedit.com/)**  
