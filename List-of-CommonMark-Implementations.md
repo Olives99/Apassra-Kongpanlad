@@ -2,8 +2,9 @@
 
 ### C
 
-- [cmark](https://github.com/jgm/cmark) (reference
+- [cmark](https://github.com/commonmark/cmark) (reference
   implementation, high performance executable and library)
+- [cmark-gfm](https://github.com/github/cmark) - GitHub's fork of cmark with extensions for tables, etc.
 - [MD4C](https://github.com/mity/md4c) - very fast parser implementation with minimalistic interface (in XML-parsing analogy, it is more like a SAX parser, not DOM parser)
 
 ### C# ###
