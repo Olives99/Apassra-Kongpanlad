@@ -86,6 +86,10 @@ library) - [`pip install paka.cmark`](https://pypi.python.org/pypi/paka.cmark)
   - [SwiftMark](http://pyroh.github.io/docs/SwiftMark/index.html) (wraps the C library)
   - [SmarkDown.swft](https://github.com/SwiftStudies/SmarkDown) - Pure Swift
 
+### Tcl
+
+  - [tcl-cmark](https://github.com/apnadkarni/tcl-cmark) - wraps cmark-gfm
+
 ### TypeScript
 
   - [DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped) (JS library bindings, [NuGet](https://www.nuget.org/packages/commonmark.TypeScript.DefinitelyTyped))
