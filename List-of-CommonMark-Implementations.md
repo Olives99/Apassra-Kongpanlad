@@ -32,6 +32,7 @@
 ### Haskell
 
 - [cmark](http://hackage.haskell.org/package/cmark) (wraps the C library)
+- [commonmark-hs](https://github.com/jgm/commonmark-hs) - pure Haskell implementation
 
 ### Java
 
