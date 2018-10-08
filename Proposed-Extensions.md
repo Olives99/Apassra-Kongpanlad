@@ -14,6 +14,8 @@ Proposed Extensions in alphabetical order. Please make a [forum topic in the Ext
   - [Consistent Attribute syntax discussion](http://talk.commonmark.org/t/consistent-attribute-syntax/272)
   - [Alignment discussion](http://talk.commonmark.org/t/support-for-align-right/2042)
   - [Links with attributes like target, class, etc discussion](https://talk.commonmark.org/t/links-with-attributes-like-target-class-etc/2246)
+- Blockquotes (alternative syntax)
+  - [Fenced Syntax discussion](https://talk.commonmark.org/t/fenced-blockquote/2370)
 - Blockquote Footer
   - [Discussion](https://talk.commonmark.org/t/syntax-for-footer/2070)
 - Checkboxes
@@ -60,6 +62,8 @@ Proposed Extensions in alphabetical order. Please make a [forum topic in the Ext
 - Footnotes
   - [How should footnotes behave? discussion](http://talk.commonmark.org/t/how-should-footnotes-behave/1106)
   - [Footnotes and indentation discussion](http://talk.commonmark.org/t/footnotes-and-indentation/2030)
+- Headers (alternative syntax)
+  - [Fenced Setext Headings (Flowerbox headings) discussion](https://talk.commonmark.org/t/fenced-setext-headings/2678)
 - Highlighted Text
   - [Discussion](http://talk.commonmark.org/t/highlighting-text-with-the-mark-element/840)
 - Images
