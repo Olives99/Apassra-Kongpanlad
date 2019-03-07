@@ -86,8 +86,8 @@ library) - [`pip install paka.cmark`](https://pypi.python.org/pypi/paka.cmark)
 
 ### Swift
 
-  - [SwiftMark](http://pyroh.github.io/docs/SwiftMark/index.html) (wraps the C library)
-  - [Down](https://github.com/iwasrobbed/Down)
+  - [SwiftMark](https://github.com/Pyroh/SwiftMark) (wraps the C library)
+  - [Down](https://github.com/iwasrobbed/Down) (wraps reference cmark)
 
 ### Tcl
 
