@@ -48,6 +48,7 @@
   implementation) - [`npm install commonmark`](https://www.npmjs.org/package/commonmark)
 - [markdown-it](https://github.com/markdown-it/markdown-it) (high speed pluggable implementation) - [`npm install markdown-it`](https://www.npmjs.org/package/markdown-it)
 - [cmark-emscripten](https://github.com/mvasilkov/cmark-emscripten) (port of the C library to [WebAssembly](https://developer.mozilla.org/en-US/docs/WebAssembly)) - [`npm install cmark-emscripten`](https://www.npmjs.com/package/cmark-emscripten)
+- [mdx](https://github.com/mdx-js/mdx) (superset of CommonMark that adds embedded JSX and import/export syntax)  
 
 ### Lua
 
