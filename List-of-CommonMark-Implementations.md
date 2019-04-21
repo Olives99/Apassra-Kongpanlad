@@ -24,6 +24,10 @@
 
 - [Cmark](https://github.com/asaaki/cmark.ex) (wraps the C library)
 
+### Emacs Lisp
+
+- [cmark](https://github.com/taku0/cmark-el) (port of commonmark.js)
+
 ### Go
 
 - [golang-commonmark/markdown](https://gitlab.com/golang-commonmark/markdown) - pure Go implementation
