@@ -32,6 +32,7 @@
 
 - [golang-commonmark/markdown](https://gitlab.com/golang-commonmark/markdown) - pure Go implementation
 - [go-commonmark](https://github.com/rhinoman/go-commonmark) (wraps the C library)
+- [goldmark](https://github.com/yuin/goldmark) - pure Go implementation
 
 ### Haskell
 
