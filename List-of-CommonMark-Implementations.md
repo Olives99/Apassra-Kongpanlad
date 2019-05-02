@@ -71,7 +71,7 @@
 
 ### Python
 
-- [commonmark.py](https://github.com/rtfd/CommonMark-py) - Pure Python implementation directly based on commonmark.js
+- [commonmark.py](https://github.com/rtfd/commonmark.py) - Pure Python implementation directly based on commonmark.js
 - [mistletoe](https://github.com/miyuchina/mistletoe) - Fastest, extensible implementation in pure Python
 - [paka.cmark](https://github.com/PavloKapyshin/paka.cmark) (wraps the cmark C
 library) - [`pip install paka.cmark`](https://pypi.python.org/pypi/paka.cmark)
