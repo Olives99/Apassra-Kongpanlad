@@ -36,6 +36,11 @@
 &emsp; ▸ **Java JAR** (**Windows**, **Linux**, **Mac**)  
 &emsp; ▸ An open source Markdown editor written in JavaFX 8.
 
+**[Stylo](https://www.textually.net/)**  
+&emsp; ▸ **macOS**
+&emsp; ▸ Supports for CommonMark+attributes extension+GFM table and strikethrough  
+&emsp; ▸ Supports CSS syntax highlighting editing + text attributes  
+
 **[TextNut](http://www.textnutwriter.com/)**  
 &emsp; ▸ **Mac**, **iOS**
 
