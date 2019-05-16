@@ -37,7 +37,7 @@
 &emsp; ▸ An open source Markdown editor written in JavaFX 8.
 
 **[Stylo](https://www.textually.net/)**  
-&emsp; ▸ **macOS**
+&emsp; ▸ **macOS**< br/>
 &emsp; ▸ Supports for CommonMark+attributes extension+GFM table and strikethrough  
 &emsp; ▸ Supports CSS syntax highlighting editing + text attributes  
 
