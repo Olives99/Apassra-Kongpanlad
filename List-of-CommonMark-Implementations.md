@@ -39,6 +39,10 @@
 - [cmark](http://hackage.haskell.org/package/cmark) (wraps the C library)
 - [commonmark-hs](https://github.com/jgm/commonmark-hs) - pure Haskell implementation
 
+### Haxe
+
+- [necmark](https://github.com/ConstNW/necmark) (wraps the C library) - neko target
+
 ### Java
 
 - [commonmark-java](https://github.com/atlassian/commonmark-java) - pure Java
