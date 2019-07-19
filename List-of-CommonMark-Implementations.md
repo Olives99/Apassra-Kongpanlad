@@ -79,6 +79,7 @@
 - [mistletoe](https://github.com/miyuchina/mistletoe) - Fastest, extensible implementation in pure Python
 - [paka.cmark](https://github.com/PavloKapyshin/paka.cmark) (wraps the cmark C
 library) - [`pip install paka.cmark`](https://pypi.python.org/pypi/paka.cmark)
+- [Marko](https://github.com/frostming/marko) - A pure Python implementation, focusing on easy extensibility
 
 ### Ruby/RubyMotion
 
