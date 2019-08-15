@@ -46,6 +46,7 @@
 ### Java
 
 - [commonmark-java](https://github.com/atlassian/commonmark-java) - pure Java
+- [flexmark-java](https://github.com/vsch/flexmark-java) - pure Java, with source level AST down to single characters
 
 ### Scala
 
