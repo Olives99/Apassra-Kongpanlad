@@ -16,6 +16,11 @@
 
 - [markd](https://github.com/icyleaf/markd) - written in Crystal
 
+### D
+
+- [commonmark-d](https://github.com/p0nce/commonmark-d) (port of MD4C)
+- [hunt-markdown](https://github.com/huntlabs/hunt-markdown) (port of commonmark-java)
+
 ### Dart
 
 - [mdown](https://github.com/dikmax/mdown)
