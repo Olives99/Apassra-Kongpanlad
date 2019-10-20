@@ -78,7 +78,7 @@
 
 ### PHP
 
-- [league/commonmark](http://commonmark.thephpleague.com/) - Based on the JS/C++ reference implementations
+- [league/commonmark](http://commonmark.thephpleague.com/) - Highly-extensible PHP implementation based on commonmark.js with support for custom extensions
 - [cmark](http://docs.php.net/cmark) - PECL extension based on the original [cmark](https://github.com/jgm/cmark) implementation
 
 ### Python
