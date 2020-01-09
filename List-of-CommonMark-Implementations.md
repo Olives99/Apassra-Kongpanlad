@@ -38,7 +38,7 @@
 - [golang-commonmark/markdown](https://gitlab.com/golang-commonmark/markdown) - pure Go implementation
 - [go-commonmark](https://github.com/rhinoman/go-commonmark) (wraps the C library)
 - [goldmark](https://github.com/yuin/goldmark) - pure Go implementation
-- [Lute](https://github.com/b3log/lute) - pure Go implementation
+- [Lute](https://github.com/88250/lute) - pure Go implementation
 
 ### Haskell
 
