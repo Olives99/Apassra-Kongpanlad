@@ -27,6 +27,7 @@ The aim of this list is to document all Markdown syntax variations (rather than 
 - [Pandoc's Markdown](http://pandoc.org/README.html#pandocs-markdown)
 - [PHP Markdown Extra Extended](https://github.com/egil/php-markdown-extra-extended)
 - [Python Markdown](http://pythonhosted.org/Markdown/extensions/)
+- [R Markdown](https://rmarkdown.rstudio.com/)
 - [Redcarpet](https://github.com/vmg/redcarpet)
 - [Remarkable](https://github.com/jonschlinkert/remarkable#syntax-extensions)
 - [Rhythmus](http://rhythmus.be/building-a-magazine/#extending-markdown)
