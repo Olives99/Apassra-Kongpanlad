@@ -105,8 +105,9 @@ library) - [`pip install paka.cmark`](https://pypi.python.org/pypi/paka.cmark)
 
 ### Swift
 
-  - [SwiftMark](https://github.com/Pyroh/SwiftMark) (wraps the C library)
   - [Down](https://github.com/iwasrobbed/Down) (wraps reference cmark)
+  - [SwiftMark](https://github.com/Pyroh/SwiftMark) (wraps the C library)
+  - [MarkdownSyntax](https://github.com/hebertialmeida/MarkdownSyntax) (wraps reference C library for AST access)
 
 ### Tcl
 
