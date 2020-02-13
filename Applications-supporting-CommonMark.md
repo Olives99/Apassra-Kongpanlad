@@ -50,6 +50,16 @@
 
 **[Visual Studio Code](https://code.visualstudio.com/docs/languages/markdown)**
 
+
+## Static Site Generators
+
+(This section just recently added, and likely very incomplete. Please add to it if you know of others.)
+
+**[Jekyll](https://jekyllrb.com/docs/configuration/markdown/#commonmark)**
+
+**[Hugo](https://gohugo.io/getting-started/configuration-markup#goldmark)**
+
+
 ## CommonMark Misc.
 
 **[Pandoc](https://pandoc.org/)**  
