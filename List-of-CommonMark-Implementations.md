@@ -84,6 +84,7 @@
 ### Python
 
 - [commonmark.py](https://github.com/rtfd/commonmark.py) - Pure Python implementation directly based on commonmark.js
+- [markdown-it-py](https://github.com/ExecutableBookProject/markdown-it-py) - A pure Python port of the JS markdown-it library; High speed and pluggable
 - [mistletoe](https://github.com/miyuchina/mistletoe) - Fastest, extensible implementation in pure Python
 - [paka.cmark](https://github.com/PavloKapyshin/paka.cmark) (wraps the cmark C
 library) - [`pip install paka.cmark`](https://pypi.python.org/pypi/paka.cmark)
