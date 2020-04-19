@@ -49,7 +49,7 @@
 &emsp; ▸ A notebook built around Markdown and CommonMark, with 1Password integration, HTML/CSS support, syntax highlighting, and more.
 
 **[Visual Studio Code](https://code.visualstudio.com/docs/languages/markdown)**
-
+&emsp; ▸ **Mac**, **Windows**, **Linux**
 
 ## Static Site Generators
 
