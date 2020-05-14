@@ -134,7 +134,7 @@ These projects are based on earlier versions of CommonMark and are now obsolete.
 
 ### Lua
 
-- [luacmark](https://github.com/jturner/luacmark)
+- [luacmark](https://github.com/jgm/luacmark)
 - [commonmark-lua](https://github.com/jgm/commonmark-lua) - luajit + FFI
 
 ### Python
