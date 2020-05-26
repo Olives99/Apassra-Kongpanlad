@@ -67,6 +67,10 @@
 - [mdx](https://github.com/mdx-js/mdx) (superset of CommonMark that adds embedded JSX and import/export syntax)
 - [ciceromark](https://github.com/accordproject/markdown-transform) - The CiceroMark DOM extends the CommonMark DOM for [smart legal contracts](www.accordproject.org); defining nodes for `Clause`, `Variable`, and `ComputedVariable`  
 
+### Julia
+
+- [CommonMark.jl](https://github.com/MichaelHatherly/CommonMark.jl) (pure Julia implementation with extensions)
+
 ### Lua
 
 - [cmark-lua](https://github.com/jgm/cmark-lua) (wraps the C library) - [`luarocks install cmark`](https://luarocks.org/modules/jgm/cmark)
