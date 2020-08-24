@@ -123,6 +123,9 @@ library) - [`pip install paka.cmark`](https://pypi.python.org/pypi/paka.cmark)
   - [DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped) (JS library bindings, [NuGet](https://www.nuget.org/packages/commonmark.TypeScript.DefinitelyTyped))
   - [FlavorMark](https://github.com/AnyhowStep/flavormark) (Rewrite of commonmark.js with focus on modularizing parsing logic, [npm](https://www.npmjs.com/package/flavormark))
 
+### Zig
+
+  - [koino](https://github.com/kivikakk/koino) - Architecture based on Comrak/cmark-gfm, with GitHub extensions
 
 ## Not recently maintained
 
