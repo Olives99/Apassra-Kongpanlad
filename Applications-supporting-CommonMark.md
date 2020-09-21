@@ -15,6 +15,11 @@
 &emsp; ▸ Supports realtime cooperative editing  
 &emsp; ▸ Supports GitHub Flavored Markdown, book mode, slide mode, ToC, tasklist, codeblock syntax highlighting, LaTeX rendering, diagrams rendering, video embed and more, refer https://hackmd.io/features for all the features.
 
+**[KeenWrite](https://github.com/DaveJarvis/keenwrite)**
+&emsp; ▸ **Linux**, **Windows**, **Mac**, and any system that can run Java 14+
+&emsp; ▸ Desktop application having real-time preview.
+&emsp; ▸ Supports interpolated variables, CommonMark, R Markdown, simple TeX formulas, spell check, synchronized scrolling, and custom XML/XSLT conversion to Markdown.
+
 **[Markdown Edit](http://markdownedit.com/)**  
 &emsp; ▸ **Windows**
 
@@ -27,7 +32,7 @@
 
 **[Markdown Plus](https://tylingsoft.com/markdown-plus/)**  
 &emsp; ▸ **Windows**, **Mac**  
-&emsp; ▸ Also supports GitHub Flavored Markdown, [Markdown TOC (table of contents)](https://github.com/jonschlinkert/markdown-toc), footnote, task list, emoji, Font Awesome, mathematical formula, flowchart, diagrams, Vim mode, Emacs mode and a lot more.
+&emsp; ▸ Supports GitHub Flavored Markdown, [Markdown TOC (table of contents)](https://github.com/jonschlinkert/markdown-toc), footnote, task list, emoji, Font Awesome, mathematical formula, flowchart, diagrams, Vim mode, Emacs mode and a lot more.
 
 **[MarkdownPad](https://markdownpad.com/)**  
 &emsp; ▸ **Windows**
@@ -51,6 +56,7 @@
 **[Visual Studio Code](https://code.visualstudio.com/docs/languages/markdown)**  
 &emsp; ▸ **Mac**, **Windows**, **Linux**
 
+
 ## Static Site Generators
 
 (This section just recently added, and likely very incomplete. Please add to it if you know of others.)
@@ -60,7 +66,7 @@
 **[Hugo](https://gohugo.io/getting-started/configuration-markup#goldmark)**
 
 
-## CommonMark Misc.
+## CommonMark Software
 
 **[Pandoc](https://pandoc.org/)**  
 &emsp; ▸ Converts between a multitude of document formats,  supports CommonMark as both input and output.
