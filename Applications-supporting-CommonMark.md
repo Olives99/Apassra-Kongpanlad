@@ -16,6 +16,7 @@
 &emsp; ▸ Supports GitHub Flavored Markdown, book mode, slide mode, ToC, tasklist, codeblock syntax highlighting, LaTeX rendering, diagrams rendering, video embed and more, refer https://hackmd.io/features for all the features.
 
 **[KeenWrite](https://github.com/DaveJarvis/keenwrite)**
+
 &emsp; ▸ **Linux**, **Windows**, **Mac**, and any system that can run Java 14+
 &emsp; ▸ Desktop application having real-time preview.
 &emsp; ▸ Supports interpolated variables, CommonMark, R Markdown, simple TeX formulas, spell check, synchronized scrolling, and custom XML/XSLT conversion to Markdown.
