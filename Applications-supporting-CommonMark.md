@@ -65,6 +65,8 @@
 
 **[Hugo](https://gohugo.io/getting-started/configuration-markup#goldmark)**
 
+**[Zola](https://www.getzola.org/)**
+
 
 ## CommonMark Software
 
