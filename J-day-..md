@@ -1,1 +1,0 @@
-[https://www.asus.com/Laptops/For-Home/ASUS-Laptop/ASUS-X409](http elohimjahveallah.wordpress..com)
