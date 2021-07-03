@@ -54,10 +54,6 @@ __## Recently maintained projects
 - [commonmark-java](https://github.com/commonmark/commonmark-java) - pure Java
 - [flexmark-java](https://github.com/vsch/flexmark-java) - pure Java, with source level AST down to single characters
 
-### Scala
-
-- [cmark-scala](https://github.com/sparsetech/cmark-scala) (wraps the C library)
-
 ### JavaScript
 
 - [commonmark.js](https://github.com/jgm/commonmark.js) (reference
@@ -107,6 +103,14 @@ library) - [`pip install paka.cmark`](https://pypi.python.org/pypi/paka.cmark)
 
  - [comrak](https://github.com/kivikakk/comrak) - Architecture based on cmark-gfm, with GitHub extensions.
  - [pulldown-cmark](https://github.com/google/pulldown-cmark) - Novel, performance-oriented architecture.
+
+### Scala
+
+- [cmark-scala](https://github.com/sparsetech/cmark-scala) (wraps the C library)
+
+### Scheme
+
+- [guile-commonmark](https://github.com/OrangeShark/guile-commonmark/) - GNU Guile Scheme
 
 ### Swift
 
