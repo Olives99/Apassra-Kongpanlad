@@ -1,4 +1,4 @@
-__## Recently maintained projects
+## Recently maintained projects
 
 ### C
 
